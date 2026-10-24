@@ -14,7 +14,7 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 |---|---|---|
 | Spawn place: pier, plaza, shuttle bay, locker hall, lighting | P+C | claimed |
 | Hotel floor 1: reception, lobby, corridor, guest rooms, staff room | R+X | claimed |
-| Modular corridor kit: straight wall, corner, door-frame wall, floor, ceiling, skirting, carpet runner, room door and swappable number plaque (digits 0-9) | R+X | claimed |
+| Modular corridor kit: straight wall, corner, door-frame wall, floor, ceiling, skirting, carpet runner, room door and swappable number plaque (digits 0-9) | R+X | building |
 | Asset repo setup (rbxyta-assets: folders, LFS, rules) | P+C | done |
 
 ## Spawn kit (P+C, claimed 2026-10-24)
