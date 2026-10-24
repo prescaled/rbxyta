@@ -22,15 +22,17 @@ Style: detailed stylised Roblox look ([[Art Bible]]), like the user's reference 
 
 ## Layout (top view, about 200 studs across)
 ```
-                 mountains + pines
-          ___________________________
-        /     [ASHBOURNE HOTEL on rise]         /   iron gates   [Overlook terrace]       | [Staff House]              [Shuttle  |
- pines|  classes     ( ring road )  Terminal]| tunnel -> hotel
-      |   [Key Plaza: statue,   6 bays]      |
-      | [Supplies]  spawn, leaderboards      |
-       \ [Security Hut]   [Staff Canteen]   /
-        \___________________________________/
-                 mountains + pines
+                  mountains + pines
+          _______________________________
+         /   [ASHBOURNE HOTEL on its rise] \
+        /  iron gates      [Overlook terrace]\
+       | [Staff House]            [Shuttle    |
+ pines |  classes   ( ring road )  Terminal]  |== tunnel -> hotel
+       |        [ Key Plaza: statue,  6 bays] |
+       | [Supplies]   spawn, boards ]         |
+        \ [Security Hut]   [Staff Canteen]   /
+         \_________________________________/
+                  mountains + pines
 ```
 - **Centre**: round **Key Plaza** (spawn), cobbles, the giant brass key statue, benches, leaderboards.
 - **Ring road**: an asphalt loop with bold white lines around the plaza, like the reference, with lamps on both kerbs.
