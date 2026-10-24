@@ -4,6 +4,8 @@
 .obsidian/workspaces.json
 .obsidian/cache
 .obsidian/plugins/*/data.json
+# Installed plugin code and device-local settings are managed by Obsidian
+.obsidian/plugins/
 .trash/
 
 # OS junk
