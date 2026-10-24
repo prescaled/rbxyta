@@ -20,7 +20,7 @@ What that means:
 - **Models come from Blender** (via MCP or headless), textured, as MeshParts. Studio Parts are only for blockout, collisions and simple glowing bits (Neon rings, light strips).
 - **Lighting and readability** (from the reference): dark blue night outside, strong warm lamps with glow, cream lit windows, a **gold Neon ring or outline** on anything you can use (lobby pads, class pedestals, shop counter, task spots), and **big floating serif labels** (gold fill, dark stroke) over pads and zones.
 - **Dense**: every corner has props (benches, bins, crates, planters, posters, trolleys, carts, signs).
-- **Our identity, not Halloween**: no pumpkins, cobwebs, spiders, gravestones or orange-and-purple themes. The signature colours are **Ashbourne burgundy, brass gold and deep teal**.
+- **Our identity, not Halloween**: no pumpkins, cobwebs, spiders, cartoon ghosts or orange-and-purple themes. Old, weathered **gravestones are allowed** (user 2026-10-24) as long as they look real and worn, not cartoony. The signature colours are **Ashbourne burgundy, brass gold and deep teal**.
 
 The story setting is still a 1990s hotel that's a bit tired. It's drawn in this detailed stylised way.
 

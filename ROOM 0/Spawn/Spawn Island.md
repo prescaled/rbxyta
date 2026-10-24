@@ -17,7 +17,8 @@ Style: detailed stylised Roblox look ([[Art Bible]]), like the user's reference 
 ## Mood
 **Dark night with bright, friendly accents. Not Halloween.** The hollow is the safe place; the fear starts in the hotel.
 - **Yes**: navy sky, light fog in the pines, mountains as dark silhouettes, wet cobbles and asphalt, amber lamps with glow, warm string lights between the buildings, cream windows, gold neon rings on everything you can use, burgundy Ashbourne awnings and banners.
-- **No**: pumpkins, cobwebs, spiders, gravestones, cartoon ghosts, orange and purple Halloween colours. No water.
+- **Yes, for the vibe** (user 2026-10-24): an old, weathered graveyard plot with mossy, tilted headstones and an iron fence.
+- **No**: pumpkins, cobwebs, spiders, cartoon ghosts, orange and purple Halloween colours. No water.
 - Details in [[Spawn Mood and Lighting]].
 
 ## Layout (top view, about 200 studs across)
@@ -52,6 +53,7 @@ Style: detailed stylised Roblox look ([[Art Bible]]), like the user's reference 
 | **Security Hut** (south) | Tutorial | Small teal hut with a barrier arm and a glowing "Tutorial" pad. |
 | **Fill buildings** (user 2026-10-24: "add more buildings to fill up the area") | Make the ring feel full and lived-in | All facing inward, detailed and from the building kit with their own signs: **Staff Dormitory** (two 3-storey blocks, lit windows, laundry lines between them), **Hotel Laundry** (steam vents, carts of linen outside), **Maintenance Garage** (roller door half open, tools, a parked utility cart), **Post and Parcels** room (mail sacks, pigeonholes in the window), **Uniform Tailor** (mannequins in the window), **Shuttle Depot Office** next to the terminal. |
 | **Background depth** | Fill the view beyond the ring | Rooftops and chimneys of more cottages on the lower slopes behind the ring, with lit windows, a small chapel-less bell tower, a water tower, and a few lit cabins among the pines on the mountainsides. Cheap low-detail meshes; you see them, but can't reach them. |
+| **Old staff graveyard** (user 2026-10-24: gravestones for the vibe) | Atmosphere, discovery | A small fenced plot between the pines on the slope behind the Staff House: mossy, tilted, worn stone headstones and a stone cross or two, a lantern on the gate, low fog. Not cartoony. Idea, not canon: the stones carry names of past Ashbourne staff, and one has no dates, only "Room 0". |
 | **Hidden spots** | Discovery | 3 to 5 secrets in the pines and behind buildings, linked to video clues ([[Player Experience#The video-to-game bridge]]). |
 
 ## The hotel (needs more detail)

@@ -32,5 +32,5 @@ Art direction for the [[Spawn Island]]: **dark night, bright stylised Roblox acc
 - No music on the island, or a very quiet piano loop that matches the hotel lobby.
 
 ## Rules
-- No Halloween props, no cartoon ghosts, no jump scares on the island. It is a safe space; the fear starts in the hotel.
+- No Halloween props (pumpkins, cobwebs, spiders), no cartoon ghosts, no jump scares on the island. Weathered gravestones are fine (user 2026-10-24). It is a safe space; the fear starts in the hotel.
 - Keep the path lit with lamps, so players never get lost.
