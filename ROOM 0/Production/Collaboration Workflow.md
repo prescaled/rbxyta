@@ -38,14 +38,14 @@ Next split, once the first areas are done: Claude takes [[Anomalies]] (predators
 - Folder layout:
   ```
   rbxyta-assets/
-    library/      R0_Library.blend (shared props, one owner per object)
+    library/      one .blend per shared object, e.g. R0_Prop_StreetLamp.blend
     spawn/        R0_Spawn_*.blend      (Prescaled + Claude)
     hotel_f1/     R0_Hotel_F1_*.blend   (Rivin + Codex)
     characters/   R0_Char_*.blend
     textures/     shared materials and trim sheets
     export/       .fbx files ready for Roblox
   ```
-- Area files **link** shared assets from `R0_Library.blend` (File > Link), never copy them. Change the library object once and every file updates.
+- Area files **link** shared assets from their own file in `library/` (File > Link), never copy them. One file per shared object means the two sides never edit the same `.blend`. Change it once and every file updates.
 - `.blend` files cannot be merged. Only the claimed owner edits a file. If two people need the same file, take turns.
 
 ## 4. Session checklist (for both AIs)
