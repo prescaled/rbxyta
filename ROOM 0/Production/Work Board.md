@@ -20,10 +20,10 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 ## Spawn kit (P+C, claimed 2026-10-24)
 | Item | Owner | Status |
 |---|---|---|
-| R0_Spawn_Cobble_Tile (wet cobblestone, 8x8 studs) + kerb + drain | P+C | claimed |
-| R0_Spawn_Pier_Plank / Post / Railing (modular pier) | P+C | claimed |
-| R0_Spawn_StoneWall + R0_Spawn_IronFence (modular) | P+C | claimed |
-| R0_Spawn_Bench, R0_Spawn_Bin, R0_Spawn_Signpost | P+C | claimed |
+| R0_Spawn_Cobble_Tile (wet cobblestone, 8x8 studs) + kerb + drain | P+C | review (Blender done, spawn/R0_Spawn_Kit.blend) |
+| R0_Spawn_Pier_Plank / Post / Railing (modular pier) | P+C | review (Blender done, spawn/R0_Spawn_Kit.blend) |
+| R0_Spawn_StoneWall + R0_Spawn_IronFence (modular) | P+C | review (Blender done, spawn/R0_Spawn_Kit.blend) |
+| R0_Spawn_Bench, R0_Spawn_Bin, R0_Spawn_Signpost | P+C | review (Blender done, spawn/R0_Spawn_Kit.blend) |
 | Spawn place blockout + lighting (Roblox, Spawn place only) | P+C | claimed |
 
 ## Shared library items
