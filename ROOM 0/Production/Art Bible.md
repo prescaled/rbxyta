@@ -7,10 +7,18 @@ status: proposal
 
 The one art standard both AIs follow, so models from Claude and Codex look like the same game. Workflow: [[Collaboration Workflow]].
 
-## Look
-- **Realistic, slightly worn 1990s hotel.** Not cartoony, not Halloween ([[Spawn Mood and Lighting]]).
-- Warm wood, brass, deep red and green fabrics, cream walls, patterned carpet. Everything a little old and tired.
-- Detail comes from **many props**, not from very heavy single meshes.
+## Look (updated 2026-10-24: Roblox style)
+**Decided 2026-10-24:** the game should feel like a **Roblox game**, not a realistic render. The style reference is the spawn of *Animal Hospital* (screenshots in `rbxyta-assets/reference/style/`). Copy its **style**, never its layout, buildings or decorations: our spawn is our own hotel, quay and staff buildings.
+
+What "Roblox style" means for every model and area:
+- **Chunky and readable.** Big simple blocks, thick proportions, clear silhouettes you can read from far away. No tiny bevels or thin realistic detail. Ornate things (lamps, fences, signs) get **bold, oversized** scrolls and finials.
+- **Warm and saturated.** Night scenes are a dark blue sky with **warm orange/yellow pools of light**, glowing windows and bright accents. Colours are clearly visible, not grey or washed out.
+- **Roblox materials first.** Build with Parts and simple meshes using Roblox materials (Brick, Cobblestone, WoodPlanks, Asphalt, Concrete, SmoothPlastic, Metal, **Neon** for lights). Use SurfaceAppearance only where a material can't do it.
+- **Built from parts where possible.** Buildings, roads, pavements, walls, signs and simple props are Part builds in Studio. Blender is for shapes Parts can't make well (vehicles, ornate iron, curved trims, characters).
+- **Readable gameplay.** Big signs with bold text, **glowing floor pads** for things you can use (lobbies, shops), and **floating labels** (BillboardGui) such as `Classes` or `2/4  0:20`.
+- **Dense, not wide.** Small areas packed with props: lamps, benches, bins, fences, trees, planters, signs, lit windows. Every view should have something to look at.
+- **Our identity**: the 1990s Ashbourne hotel palette below (walnut, brass, deep red, green, cream).
+- **Seasonal decorations** (pumpkins, cobwebs, snow) only as timed events in their own folder, never baked into base models.
 
 ## Scale (Roblox studs)
 | Thing | Size |
@@ -50,13 +58,17 @@ In Blender, set up one **template scene** with these reference sizes and a dummy
 - Examples: `R0_Lobby_Sofa_A`, `R0_Corridor_Wall_Straight`, `R0_Spawn_StreetLamp_Flicker`, `R0_Char_Bellhop`
 - Roblox Packages use the same name.
 
-## Colour palette (starting point)
+## Colour palette (Roblox style, brighter than the first draft)
 | Use | Colour |
 |---|---|
-| Wood (dark walnut) | #4A2E1F |
-| Brass | #B08D57 |
-| Carpet red | #6E1F24 |
-| Fabric green | #2F4A3A |
-| Wall cream | #D9CBB0 |
-| Night fog blue | #2B3440 |
-| Lamp sodium orange | #E8A04A |
+| Wood (walnut) | #6B4430 |
+| Brass / gold trim | #D4A24C |
+| Hotel red | #B3262E |
+| Hotel green | #2E6B4A |
+| Wall cream | #F0E2C4 |
+| Brick | #8A4B3A |
+| Iron (fences, lamps) | #1E1E24 |
+| Night sky | #141A2E |
+| Lamp glow (Neon) | #FFB347 |
+| Window glow (Neon) | #FFD27A |
+| Lobby pad glow (Neon) | #FFD21F |
