@@ -29,7 +29,7 @@ Style: detailed stylised Roblox look ([[Art Bible]]), like the user's reference 
        | [Staff House]            [Shuttle    |
  pines |  classes   ( ring road )  Terminal]  |== tunnel -> hotel
        |        [ Key Plaza: statue,  6 bays] |
-       | [Supplies]   spawn, boards ]         |
+       | [Supplies]   spawn, boards           |
         \ [Security Hut]   [Staff Canteen]   /
          \_________________________________/
                   mountains + pines
@@ -50,6 +50,8 @@ Style: detailed stylised Roblox look ([[Art Bible]]), like the user's reference 
 | **Staff Supplies** (south-west) | Spawn shop | Kiosk with a striped burgundy and cream awning, gold neon pad. |
 | **Staff Canteen** (south-east) | Social, decoration | Small diner front with lit windows and outdoor tables (closed at night, warm lights inside). |
 | **Security Hut** (south) | Tutorial | Small teal hut with a barrier arm and a glowing "Tutorial" pad. |
+| **Fill buildings** (user 2026-10-24: "add more buildings to fill up the area") | Make the ring feel full and lived-in | All facing inward, detailed and from the building kit with their own signs: **Staff Dormitory** (two 3-storey blocks, lit windows, laundry lines between them), **Hotel Laundry** (steam vents, carts of linen outside), **Maintenance Garage** (roller door half open, tools, a parked utility cart), **Post and Parcels** room (mail sacks, pigeonholes in the window), **Uniform Tailor** (mannequins in the window), **Shuttle Depot Office** next to the terminal. |
+| **Background depth** | Fill the view beyond the ring | Rooftops and chimneys of more cottages on the lower slopes behind the ring, with lit windows, a small chapel-less bell tower, a water tower, and a few lit cabins among the pines on the mountainsides. Cheap low-detail meshes; you see them, but can't reach them. |
 | **Hidden spots** | Discovery | 3 to 5 secrets in the pines and behind buildings, linked to video clues ([[Player Experience#The video-to-game bridge]]). |
 
 ## The hotel (needs more detail)
