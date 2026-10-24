@@ -28,6 +28,14 @@ The fictional hotel where everything in [[ROOM 0 - Home|ROOM 0]] happens.
 | Restricted areas | Canon, details open | Unlocked through [[Progression]] |
 | [[Room 0]] | Canon, location unknown | The goal of the whole game |
 
+## Interior plan (proposal, 2026-10-24)
+Full floor plan, rooms, task spots and build order are in the Codex brief `rbxyta-assets/prompts/CODEX_HOTEL_INTERIOR.md`. In short:
+- **Ground floor**: grand lobby with an imperial staircase, reception and back office, lift lobby, the Night Counter shop, lounge and bar, dining room, a closed ballroom, plus the staff wing (security room, staff room, laundry, kitchen, fuse room, storage).
+- **Floor 1**: guest rooms 101-116. There is no Room 113, and the east half is closed for renovation.
+- **Later**: Floor 2 with Room 214, and the basement.
+
+The look is an old, half-abandoned grand mountain hotel in the detailed stylised style ([[Art Bible]]). Not canon until built and approved.
+
 ## Design notes
 - The hotel is the one "memorable location" the first version focuses on (see [[Principles]]).
 - Every detail placed here should be able to connect to a video clue later ([[Player Experience]], [[Content Strategy]]).
