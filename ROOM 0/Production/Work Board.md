@@ -40,7 +40,7 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 | R0_Char_Guests (6 looks) | R+X | todo | Hotel, spawn background |
 | R0_Prop_Flashlight | R+X | todo | Classes, hotel |
 | R0_Prop_Toolbox | R+X | todo | Classes, maintenance |
-| R0_Prop_LuggageTrolley | R+X | todo | Classes, deliveries |
+| R0_Prop_LuggageTrolley | R+X | building | Classes, deliveries |
 | R0_Prop_HousekeepingCart | R+X | todo | Classes, cleaning |
 
 Add rows as you claim things. One owner per row.
