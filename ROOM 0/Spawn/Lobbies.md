@@ -20,7 +20,7 @@ Each lobby is a **gold neon pad** in front of a staff shuttle van in the [[Spawn
 ## Rules
 - **Max 4 players** per shift.
 - **Countdown**: 20 seconds after the first player boards, reset to 10 seconds when someone new joins. It leaves when full or when the timer ends.
-- **Leave**: step out of the van to leave the lobby.
+- **Leave**: step off the pad to leave the lobby.
 - **Party host**: the first player in can set the van to **Friends only** or **Open**.
 - **Solo shift**: one van marked `SOLO` leaves straight away with one player.
 - **Class check**: you need a class picked before you can board. It defaults to Trainee ([[Classes]]).
