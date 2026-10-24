@@ -28,6 +28,9 @@ An old, half-abandoned mountain hotel (user 2026-10-24). Faded, overgrown, a bit
 | Bloom | Medium, so Neon and lamps glow clearly |
 | Moon | Visible, partly behind clouds |
 
+## Light on the hills (user 2026-10-24)
+Street lamps a bit dimmer than the first build. The hills and tree line are lit softly by a few small warm sources: torches or lanterns along the ring edge, small flickering campfires in clearings on the slopes, and lanterns at the graveyard gate. The hills should read as silhouettes with warm spots, not bright.
+
 ## Sound
 - Wind in the pines, an owl now and then, the distant hum of the hotel, a shuttle engine echoing in the tunnel.
 - Buzzing street lamps, a creaking sign.
