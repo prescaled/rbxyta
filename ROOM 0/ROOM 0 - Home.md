@@ -62,6 +62,9 @@ Visual version: [Miro board "ROOM 0 — Ashbourne Hotel"](https://miro.com/app/b
 - [[Pilot - Daniel Mercer]]: the first video
 - [[Production Tools]]
 - [[Blender Model List]]: every model to build, by task and area
+- [[Collaboration Workflow]]: how Claude and Codex build at the same time
+- [[Art Bible]]: scale, naming and style rules for all models
+- [[Work Board]]: who is building what
 
 ## Plan
 - [[Roadmap]]: the five phases

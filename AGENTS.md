@@ -11,3 +11,12 @@ The default Miro board for ROOM 0 is https://miro.com/app/board/uXjVEVisZSo=/. U
 - Use the repository's configured Git author identity; do not replace it with an invented identity.
 
 Obsidian Git is configured locally for five-minute commit-and-sync, five-minute pulls, and pulling on startup. Its per-device settings are ignored by Git; collaborators configure their own automatic sync settings.
+
+## Building ROOM 0 (Claude and Codex at the same time)
+
+Prescaled works with Claude and Rivin works with Codex. Both use Blender MCP and Roblox Studio MCP. Before any modelling or Roblox Studio work, read and follow `ROOM 0/Production/Collaboration Workflow.md`, `ROOM 0/Production/Art Bible.md` and `ROOM 0/Production/Work Board.md`:
+
+- Only edit areas, files and Roblox folders that your side owns on the Work Board. Claim new items there and push the claim before starting.
+- Reuse shared models (Roblox Packages and the shared Blender library); never make a second version of an existing shared model.
+- Follow the Art Bible's scale, naming, budget and export rules.
+
