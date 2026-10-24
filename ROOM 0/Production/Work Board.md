@@ -25,7 +25,7 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 | R0_Spawn_StoneWall + R0_Spawn_IronFence (modular) | P+C | review (Blender done, spawn/R0_Spawn_Kit.blend) |
 | R0_Spawn_Bench, R0_Spawn_Bin, R0_Spawn_Signpost | P+C | review (Blender done, spawn/R0_Spawn_Kit.blend) |
 | Spawn place blockout + lighting (Roblox, Spawn place only) | P+C | replaced by the stylised rebuild below |
-| Spawn island stylised rebuild (Ashbourne Quay, detailed textured meshes, Spawn place only) | P+C | building (old blockout moved to ServerStorage/Spawn_OldBlockout; Studio layout, pads, LobbyServer, lighting, UI still to do) |
+| Spawn island stylised rebuild (Ashbourne Quay, detailed textured meshes, Spawn place only) | P+C | review (Quay built in Studio from the imported meshes, 348 placements + kit terraces; pad lobbies, class pads, lighting, HUD done; scripts in rbxyta-assets/tools/studio) |
 | Detailed stylised remake of StreetLamp, ShuttleVan, spawn kit + new Quay models | P+C | review (49 textured models, rbxyta-assets export/spawn + export/library, combined R0_Spawn_ALL_Import.fbx, renders in reference/renders) |
 
 ## Shared library items
