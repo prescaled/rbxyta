@@ -40,6 +40,7 @@ Visual version: [Miro board "ROOM 0 — Ashbourne Hotel"](https://miro.com/app/b
 - [[Progression]]: restricted areas, documents, the path to Room 0
 - [[Player Experience]]: curiosity, uncertainty, discovery
 - [[Guests]]: random arrivals, multi-night stays, groups in one room
+- [[Ordinary Guests - Index]]: detailed ordinary guest design, 20 bookings, routines, interactions and normal departures
 - [[Strange Events]]: the expanded event list
 - [[End of Shift Inspection]] and [[The Inspector]]: coins after every shift
 - [[Hotel Shop]]: boosts, opening window, Robux reroll
