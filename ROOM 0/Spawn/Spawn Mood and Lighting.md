@@ -5,23 +5,24 @@ status: proposal
 
 # Spawn Mood and Lighting
 
-Art direction for the [[Spawn Island]]: **dark and quiet, not Halloween.**
+Art direction for the [[Spawn Island]]: **dark night, bright stylised Roblox accents, not Halloween.** Style rules are in [[Art Bible]].
 
 ## Palette
-- **Cold**: deep navy sky, blue-grey fog, black water, moonlight.
-- **Warm accents**: sodium-orange street lamps, warm windows of the [[Ashbourne Hotel]] across the water.
-- **One wrong colour**: a single pale green-white window on the hotel that should not exist.
+- **Night base**: deep navy sky (#121A2E), dark asphalt, dark brick, black-teal water.
+- **Warm accents everywhere**: amber lamps with glow, cream lit windows, gold Neon rings on pads.
+- **Brand colours**: Ashbourne burgundy awnings and banners, brass-gold signs, deep teal doors.
+- **One wrong colour**: a single pale green-white window on the hotel across the water that should not exist.
 
 ## Roblox Lighting starting values (tune in Studio)
 | Setting | Value |
 |---|---|
 | ClockTime | 0.5 (just after midnight) |
-| Brightness | 1 |
+| Brightness | 2 (stylised: readable, not pitch black) |
 | Ambient / OutdoorAmbient | Very dark blue-grey |
-| Atmosphere | Density 0.4, Haze 2, Color cool grey |
+| Atmosphere | Density 0.3, Haze 1.5, Color navy |
 | Fog / distance | Island edges fade out at about 250 studs |
-| ColorCorrection | Saturation -0.2, Contrast +0.1, slight blue tint |
-| Bloom | Low, so street lamps glow softly |
+| ColorCorrection | Saturation +0.1, Contrast +0.1, slight blue tint |
+| Bloom | Medium, so Neon and lamps glow clearly |
 | Moon | Visible, partly behind clouds |
 
 ## Sound

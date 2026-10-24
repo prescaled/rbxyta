@@ -155,7 +155,7 @@ Priority: **P1** = first playable floor ([[Roadmap#Phase 2 — Build the first s
 | Room 0 door (design depends on [[Room 0#The secret]]) | P3 |
 
 ## Spawn island
-Dark, foggy, realistic night setting, not Halloween ([[Spawn Mood and Lighting]]). See [[Spawn Island]].
+Stylised Roblox look on a dark night, not Halloween ([[Art Bible]], [[Spawn Mood and Lighting]]). See [[Spawn Island]]. **Most of these are built from Parts in Studio**; only curved hero pieces (van, lamp heads, ferry, mannequins, key statue) come from Blender. Zone names changed in the redesign: Staff plaza is now Quay Street + Key Plaza, Shuttle bay is the Shuttle Terminal, Staff locker hall is the Staff House.
 
 ### Arrival pier
 | Model | Priority |

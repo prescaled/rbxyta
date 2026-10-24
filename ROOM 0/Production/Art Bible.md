@@ -7,10 +7,21 @@ status: proposal
 
 The one art standard both AIs follow, so models from Claude and Codex look like the same game. Workflow: [[Collaboration Workflow]].
 
-## Look
-- **Realistic, slightly worn 1990s hotel.** Not cartoony, not Halloween ([[Spawn Mood and Lighting]]).
-- Warm wood, brass, deep red and green fabrics, cream walls, patterned carpet. Everything a little old and tired.
-- Detail comes from **many props**, not from very heavy single meshes.
+## Look (decided 2026-10-24: stylised Roblox look)
+**Chunky, clean, bright-against-dark Roblox style.** The user's reference is the spawn of *Animal Hospital* (screenshots in `rbxyta-assets/reference/style/`). Copy the **style only**, never its layout, buildings, signs or Halloween decoration. Everything we build is the Ashbourne Hotel's own world.
+
+What "the Roblox feel" means for us:
+- **Simple, bold shapes.** Big readable silhouettes, slightly oversized proportions (thick lamp posts, fat kerbs, deep window frames, big signs). No fine realistic detail, no photo textures.
+- **Flat colour, few materials.** SmoothPlastic and a few Roblox materials (Brick, Cobblestone, WoodPlanks, Slate, Metal, Glass, **Neon**). In Blender: flat colour materials or one small palette texture, no PBR maps.
+- **Bright accents on a dark night.** Dark blue night and dark buildings, then strong warm light: amber lamps with visible glow, cream lit windows, gold Neon outlines on interactive spots.
+- **Glowing interactables.** Anything you can use (lobby pads, class pedestals, shop counter) has a **gold Neon ring or outline**, so players can read the space from far away.
+- **Big floating labels.** BillboardGuis in a chunky serif font (Merriweather / Garamond-style, gold fill, dark stroke) over every zone and pad: "Shuttles", "Staff Lockers", `2/4`, `0:20`.
+- **Dense and busy.** Lots of small props (benches, bins, crates, planters, posters, signs) so every corner has something, like the reference.
+- **Our identity, not Halloween:** no pumpkins, cobwebs, spiders, gravestones or orange-and-purple themes. Our signature colours are **Ashbourne burgundy, brass-gold and deep teal**.
+
+Most models are **built from Parts in Studio** (fast, native Roblox feel, editable by both AIs). Blender is for curved or hero shapes only (shuttle van, lamp heads, mannequins, characters), exported low-poly with flat colours.
+
+Older notes said "realistic, worn 1990s hotel". That still describes the *story setting* (1990s, a bit tired), but it is now drawn in this stylised way.
 
 ## Scale (Roblox studs)
 | Thing | Size |
@@ -50,13 +61,20 @@ In Blender, set up one **template scene** with these reference sizes and a dummy
 - Examples: `R0_Lobby_Sofa_A`, `R0_Corridor_Wall_Straight`, `R0_Spawn_StreetLamp_Flicker`, `R0_Char_Bellhop`
 - Roblox Packages use the same name.
 
-## Colour palette (starting point)
+## Colour palette (stylised, decided 2026-10-24)
 | Use | Colour |
 |---|---|
-| Wood (dark walnut) | #4A2E1F |
-| Brass | #B08D57 |
-| Carpet red | #6E1F24 |
-| Fabric green | #2F4A3A |
-| Wall cream | #D9CBB0 |
-| Night fog blue | #2B3440 |
-| Lamp sodium orange | #E8A04A |
+| Night sky / fog | #121A2E |
+| Dark asphalt / road | #23252E |
+| Road paint | #E8E2D4 |
+| Ashbourne burgundy (awnings, banners, uniforms) | #8C1C2B |
+| Brass gold (signs, trims, Neon rings) | #F2C14E |
+| Deep teal (doors, shutters, accents) | #1F5C63 |
+| Warm brick | #9A5A3C |
+| Cream lit window | #FFE7A8 |
+| Lamp amber light | #FFB648 |
+| Dark wood | #4A2E1F |
+| Foliage (dark pine green) | #24402F |
+| Stone / kerb grey | #8A8D93 |
+
+Triangle budgets above stay, but stylised models should come in **well under** them.
