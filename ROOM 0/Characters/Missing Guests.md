@@ -11,7 +11,7 @@ Roster of everyone who disappeared from the [[Ashbourne Hotel]]. Each one feeds 
 |---|---|---|---|---|---|
 | 1 | [[Daniel Mercer]] | 1998 | 214, later "Room 0" | Canon | First known case |
 | 2 | [[Marion Marnie Bell|Marion “Marnie” Bell]] — 43, piano tuner and repairer; travels alone | TBD | TBD | Character draft | Connection to Mercer unresolved |
-| 3 | TBD | | | Open | |
+| 3 | [[Vincent and Audrey Shaw]] — 56 and 54; a pair sharing one room; both disappear | TBD | TBD | Character and story direction recorded; author-only explanation in profile | Links to other cases unresolved |
 
 ## Rules for new guests
 - Write them **after** [[Room 0#The secret]] is decided, so every case points at the same truth.
