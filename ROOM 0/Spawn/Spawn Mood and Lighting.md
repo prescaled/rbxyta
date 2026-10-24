@@ -17,11 +17,11 @@ Art direction for the [[Spawn Island]]: **dark night, bright stylised Roblox acc
 | Setting | Value |
 |---|---|
 | ClockTime | 0.5 (just after midnight) |
-| Brightness | 2 (stylised: readable, not pitch black) |
-| Ambient / OutdoorAmbient | Very dark blue-grey |
-| Atmosphere | Density 0.3, Haze 1.5, Color navy |
+| Brightness | 3 (user 2026-10-24: earlier values were too dark; night but clearly readable, like the reference) |
+| Ambient / OutdoorAmbient | Medium blue-grey (about 90,100,130 / 110,120,150), never near black |
+| Atmosphere | Density 0.25, Haze 1, Color navy |
 | Fog / distance | Island edges fade out at about 250 studs |
-| ColorCorrection | Saturation +0.1, Contrast +0.1, slight blue tint |
+| ColorCorrection | Brightness +0.05, Saturation +0.15, Contrast +0.1, slight blue tint |
 | Bloom | Medium, so Neon and lamps glow clearly |
 | Moon | Visible, partly behind clouds |
 
