@@ -10,7 +10,7 @@ Roster of everyone who disappeared from the [[Ashbourne Hotel]]. Each one feeds 
 | # | Name | Year | Room | Status | Link to others |
 |---|---|---|---|---|---|
 | 1 | [[Daniel Mercer]] | 1998 | 214, later "Room 0" | Canon | First known case |
-| 2 | TBD | | | Open | Must connect to Mercer |
+| 2 | [[Marion Marnie Bell|Marion “Marnie” Bell]] — 43, piano tuner and repairer; travels alone | TBD | TBD | Character draft | Connection to Mercer unresolved |
 | 3 | TBD | | | Open | |
 
 ## Rules for new guests
