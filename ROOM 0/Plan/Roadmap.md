@@ -22,6 +22,7 @@ Five phases from the [[Vision]].
 - Random guest arrivals with multi-night stays and groups ([[Guests]]).
 - End-of-shift inspection with coins, a basic [[Hotel Shop]] and [[Variable Rewards]].
 - The P1 models from the [[Blender Model List]].
+- A first version of the [[Spawn Island]] with working [[Lobbies]], 2 to 3 [[Classes]], and [[Health]].
 - Result: the first playable prototype.
 
 ## Phase 3 — Connect the stories

@@ -39,6 +39,13 @@ Brainstorm only. **None of these are canon.** Each is tested against the require
 - "NPC speed" boost: player speed, or NPC speed? ([[Hotel Shop]])
 - Who is [[The Inspector]] really?
 
+## 3c. Spawn, classes and health (added 2026-10-24)
+- Can any class be bought with Robux, or are they all earned by playing? ([[Classes]])
+- Exact unlock costs and stats for each class ([[Classes]])
+- Is there a sanity / fear meter as well as health? ([[Health]])
+- Knocked-out penalty: how harsh? ([[Health]])
+- Spawn island concept: is "Ashbourne Staff Quay" with shuttles the right fit? ([[Spawn Island]])
+
 ## 4. Content and business
 - Visual identity: logo, colours, font, camera look ([[Content Strategy]]).
 - Posting cadence and which platform first.

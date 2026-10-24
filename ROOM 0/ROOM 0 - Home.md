@@ -46,6 +46,13 @@ Visual version: [Miro board "ROOM 0 — Ashbourne Hotel"](https://miro.com/app/b
 - [[Variable Rewards]]: random rewards for certain actions
 - [[Economy]]: how coins come in and go out
 
+## Spawn and players
+- [[Spawn Island]]: the hub players start on
+- [[Lobbies]]: 0/4 staff shuttles
+- [[Classes]]: staff roles with HP, regen and special items
+- [[Health]]: damage, regen, knocked out
+- [[Spawn Mood and Lighting]]: dark, not Halloween
+
 ## Content
 - [[Content Strategy]]: how the story is told before launch
 - Series: [[The Missing Guests]], [[The Security Archives]], [[The Employee Files]], [[The Discoveries]]

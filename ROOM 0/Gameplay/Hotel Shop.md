@@ -19,7 +19,7 @@ status: decided-core
 | Quick Hands | Tasks finish 25% faster | One shift |
 | Comfy Shoes | Walk speed +15% | One shift |
 | Energy Drink | Short sprint burst | 30 seconds, single use |
-| First Aid Kit | Recover health | Single use |
+| First Aid Kit | Recover [[Health]] | Single use |
 | Steady Nerves | Slower health / sanity loss from scary events | One shift |
 | Master Key (temp) | Skip one locked-door step | Single use |
 | Coffee Thermos | Stamina refills faster | One shift |

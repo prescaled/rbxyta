@@ -8,6 +8,7 @@ status: canon
 One shift = one session. The first version should focus on **one excellent gameplay loop** ([[Principles]]).
 
 ## The loop
+0. **On the [[Spawn Island]]**: pick a [[Classes|class]] and board a shuttle lobby ([[Lobbies]], 0/4).
 1. **Clock in** as a [[Night Shift Employees|night-shift employee]], alone or with friends.
 2. **Guests arrive**: a different number every night, some in groups sharing one room, some still staying from earlier nights ([[Guests]]).
 3. **Work the shift**: [[Shift Tasks]] such as check-ins, deliveries, cleaning, maintenance, cameras and room calls. Random bonus rewards can pop up for certain actions ([[Variable Rewards]]).

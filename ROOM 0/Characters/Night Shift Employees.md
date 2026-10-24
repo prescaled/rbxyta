@@ -13,7 +13,8 @@ Players take the role of **newly hired night-shift employees** at the [[Ashbourn
 - Goal: complete the shift, uncover evidence, and gradually understand the hotel's secrets ([[Gameplay Loop]]).
 
 ## Health and boosts
-- Players have **health** that scary events can lower; a First Aid Kit from the [[Hotel Shop]] recovers it.
+- Players have **health** that scary events can lower; a First Aid Kit from the [[Hotel Shop]] recovers it. Full rules: [[Health]].
+- Each player picks a staff role before the shift: [[Classes]].
 - Players earn coins at the [[End of Shift Inspection]] and from [[Variable Rewards]].
 
 ## Open

@@ -154,6 +154,81 @@ Priority: **P1** = first playable floor ([[Roadmap#Phase 2 — Build the first s
 | Symbol / insignia used in videos and game | P1 |
 | Room 0 door (design depends on [[Room 0#The secret]]) | P3 |
 
+## Spawn island
+Dark, foggy, realistic night setting, not Halloween ([[Spawn Mood and Lighting]]). See [[Spawn Island]].
+
+### Arrival pier
+| Model | Priority |
+|---|---|
+| Modular wooden pier planks, posts, railings | P1 |
+| Mooring bollards, ropes, life ring | P2 |
+| Small staff ferry / boat (docked) | P2 |
+| Fog horn post, buoy with light | P3 |
+
+### Staff plaza
+| Model | Priority |
+|---|---|
+| Cobblestone tiles (wet look), kerbs, drains | P1 |
+| Victorian street lamps (working + flickering) | P1 |
+| Clock tower (working clock face) | P1 |
+| Benches, bins, bollards, planters with dead plants | P1 |
+| Closed café front, shuttered shops | P2 |
+| Red phone box (rings) | P2 |
+| Signposts (Lockers, Shuttles, Tutorial) | P1 |
+| Low stone walls, iron fences, gates | P1 |
+
+### Shuttle bay (lobbies)
+| Model | Priority |
+|---|---|
+| Staff shuttle van, 1990s style (doors open/close, headlights) | P1 |
+| Lobby board above each van (0/4, timer) | P1 |
+| Bus shelter / canopy | P1 |
+| Road, parking lines, kerbs | P1 |
+| SOLO van variant, Friends-only lock sign | P2 |
+
+### Staff locker hall (classes)
+| Model | Priority |
+|---|---|
+| Hall building shell (brick, tall windows) | P1 |
+| Pedestals with brass name plates | P1 |
+| Mannequins (one per class) | P1 |
+| Lockers, benches, coat hooks | P1 |
+| Full-length mirror (try-on preview) | P1 |
+| Item stands for each special item | P1 |
+| Lock icon / chain for locked classes | P2 |
+
+### Other spawn zones
+| Model | Priority |
+|---|---|
+| Tutorial booth (old security booth, barrier arm) | P1 |
+| Lookout platform with coin telescope | P2 |
+| Notice board with posters ("missing" posters from the videos) | P1 |
+| Employee of the Month leaderboard boards | P2 |
+| Rocks, cliffs, shoreline pieces, dead trees, reeds | P1 |
+| Water plane / waves, fog cards | P1 |
+| Distant hotel silhouette across the water (low-poly, lit windows) | P1 |
+
+## Classes
+| Model | Priority |
+|---|---|
+| Uniforms: Trainee, Housekeeper, Porter, Maintenance Tech, Concierge, Night Security, Night Manager | P1 |
+| Flashlight (Trainee) | P1 |
+| Housekeeping cart (Housekeeper) | P1 |
+| Luggage trolley (Porter) | P1 |
+| Toolbox with bulbs and fuses (Maintenance Tech) | P1 |
+| Guest ledger book (Concierge) | P2 |
+| Security radio + strong flashlight (Night Security) | P2 |
+| Master key on a ring (Night Manager) | P2 |
+| Name badges per class | P2 |
+
+## Health
+| Model | Priority |
+|---|---|
+| First aid cabinet (staff room) | P1 |
+| Water cooler | P1 |
+| First aid kit, plasters, painkillers (pickups) | P1 |
+| Staff-room cot (wake-up spot after being knocked out) | P1 |
+
 ## Characters (NPCs)
 | Model | Priority |
 |---|---|
@@ -165,4 +240,4 @@ Priority: **P1** = first playable floor ([[Roadmap#Phase 2 — Build the first s
 | [[Daniel Mercer]] | P2 |
 
 ## Counting the work
-About **150+ unique models** before variants. With two people, plan roughly **P1 first (about 80 models)**, then add P2 alongside [[Content Strategy|video production]].
+About **210+ unique models** before variants, including the spawn island. With two people, plan roughly **P1 first (about 120 models)**, then add P2 alongside [[Content Strategy|video production]].
