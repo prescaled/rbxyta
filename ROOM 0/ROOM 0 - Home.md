@@ -31,6 +31,7 @@ Visual version: [Miro board "ROOM 0 — Ashbourne Hotel"](https://miro.com/app/b
 - [[Hotel Management]]: refuses to acknowledge Room 0
 - [[Night Shift Employees]]: the player characters
 - [[Missing Guests]]: the roster of disappearances (to be written)
+- [[The Inspector]]: checks the hotel after each shift and pays the staff
 
 ## Gameplay
 - [[Gameplay Loop]]: what a shift looks like
@@ -38,12 +39,19 @@ Visual version: [Miro board "ROOM 0 — Ashbourne Hotel"](https://miro.com/app/b
 - [[Incidents]]: the strange events
 - [[Progression]]: restricted areas, documents, the path to Room 0
 - [[Player Experience]]: curiosity, uncertainty, discovery
+- [[Guests]]: random arrivals, multi-night stays, groups in one room
+- [[Strange Events]]: the expanded event list
+- [[End of Shift Inspection]] and [[The Inspector]]: coins after every shift
+- [[Hotel Shop]]: boosts, opening window, Robux reroll
+- [[Variable Rewards]]: random rewards for certain actions
+- [[Economy]]: how coins come in and go out
 
 ## Content
 - [[Content Strategy]]: how the story is told before launch
 - Series: [[The Missing Guests]], [[The Security Archives]], [[The Employee Files]], [[The Discoveries]]
 - [[Pilot - Daniel Mercer]]: the first video
 - [[Production Tools]]
+- [[Blender Model List]]: every model to build, by task and area
 
 ## Plan
 - [[Roadmap]]: the five phases

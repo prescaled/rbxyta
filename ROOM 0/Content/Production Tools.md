@@ -7,6 +7,7 @@ tags: [room0, content, tools]
 - **ElevenLabs**: consistent character voices (narrator, [[Hotel Management]], guests).
 - **AI image generation**: cinematic scenes of the [[Ashbourne Hotel]].
 - **Editing**: a recognisable visual identity for every video.
+- **Blender**: every hotel model, see [[Blender Model List]].
 - **Roblox Studio**: the game, and footage for [[The Discoveries]].
 - **Obsidian** (this vault) and **Miro**: story bible and planning.
 

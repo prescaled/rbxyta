@@ -18,7 +18,10 @@ Five phases from the [[Vision]].
 - One detailed hotel floor.
 - A reception area.
 - Basic employee tasks ([[Shift Tasks]]).
-- Several mysterious events ([[Incidents]]).
+- Several mysterious events ([[Incidents]], [[Strange Events]]).
+- Random guest arrivals with multi-night stays and groups ([[Guests]]).
+- End-of-shift inspection with coins, a basic [[Hotel Shop]] and [[Variable Rewards]].
+- The P1 models from the [[Blender Model List]].
 - Result: the first playable prototype.
 
 ## Phase 3 — Connect the stories

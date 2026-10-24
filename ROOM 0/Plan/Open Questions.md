@@ -26,10 +26,18 @@ Brainstorm only. **None of these are canon.** Each is tested against the require
 
 ## 3. Gameplay
 - Is there real danger or a failure state, or is it pure investigation? ([[Incidents]])
-- How long is one shift? What if tasks are ignored? ([[Gameplay Loop]])
+- How long is one shift? (Ignored tasks: guests leave early and the grade drops, see [[Gameplay Loop]].)
 - Roles in a team, or everyone does everything? ([[Night Shift Employees]])
 - Is progression per player, per group, or server-wide? ([[Progression]])
 - What happens after Room 0 is reached?
+
+## 3b. Economy and guests (added 2026-10-24)
+- Exact shop opening window (start of shift, or a window in the middle?) ([[Hotel Shop]])
+- Robux reroll: check Roblox paid-random-item rules and show odds ([[Hotel Shop]])
+- What happens at zero health? ([[Night Shift Employees]])
+- Does guest satisfaction carry over between shifts? ([[Guests]])
+- "NPC speed" boost: player speed, or NPC speed? ([[Hotel Shop]])
+- Who is [[The Inspector]] really?
 
 ## 4. Content and business
 - Visual identity: logo, colours, font, camera look ([[Content Strategy]]).
