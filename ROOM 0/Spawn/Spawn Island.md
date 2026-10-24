@@ -12,6 +12,13 @@ The first place every player sees. It is the game's **menu you can walk around**
 
 The **Ashbourne Hotel** stands on a rocky rise at the north edge of the hollow, above the rooftops, behind tall iron gates. You can always see it, lit, with one pale green-white window on a floor it should not have (hook for [[Room 0]]). You can't walk to it: the staff shuttles drive there through a tunnel in the mountain.
 
+**Feel (user 2026-10-24): an old, half-abandoned grand hotel in the mountains.** The setting says "remote mountains", but the mountains stay in the background: low forested hills and a few rocky slopes ringed with pines, not towering peaks. What you notice is age and neglect:
+- the hotel and staff village are old and faded: peeling paint, faded and missing sign letters, rusted iron gates and fences, ivy and moss on walls, weeds and grass in the cobble cracks, cracked kerbs;
+- a few buildings are boarded up or dark (some fill buildings closed for years, planks over windows, a "CLOSED" sign), and others are still lit, because the night staff use them;
+- the hotel itself looks grand but decayed: most of its windows are dark, a few are lit, part of the sign doesn't light, and a wing has scaffolding or tarps;
+- dead leaves, old luggage trolleys left out, a rusted shuttle on blocks, overgrown planters, a dry fountain base.
+It is still the stylised Roblox look: tidy, readable shapes with the decay painted and modelled in, not messy.
+
 Style: detailed stylised Roblox look ([[Art Bible]]), like the user's reference *Animal Hospital* (an enclosed square ringed by buildings, with glowing pads in the middle). Style only: our layout, our buildings, no Halloween.
 
 ## Mood

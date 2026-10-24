@@ -7,6 +7,9 @@ status: proposal
 
 Art direction for the [[Spawn Island]]: **dark night, bright stylised Roblox accents, not Halloween.** Style rules are in [[Art Bible]].
 
+## Feel
+An old, half-abandoned mountain hotel (user 2026-10-24). Faded, overgrown, a bit forgotten, but still lit in places by the night staff. The mountains are background, not the focus.
+
 ## Palette
 - **Night base**: deep navy sky (#121A2E), dark asphalt, dark brick, near-black pine forest and mountain silhouettes.
 - **Warm accents everywhere**: amber lamps with glow, cream lit windows, gold Neon rings on pads.
