@@ -8,10 +8,10 @@ status: proposal
 Art direction for the [[Spawn Island]]: **dark night, bright stylised Roblox accents, not Halloween.** Style rules are in [[Art Bible]].
 
 ## Palette
-- **Night base**: deep navy sky (#121A2E), dark asphalt, dark brick, black-teal water.
+- **Night base**: deep navy sky (#121A2E), dark asphalt, dark brick, near-black pine forest and mountain silhouettes.
 - **Warm accents everywhere**: amber lamps with glow, cream lit windows, gold Neon rings on pads.
 - **Brand colours**: Ashbourne burgundy awnings and banners, brass-gold signs, deep teal doors.
-- **One wrong colour**: a single pale green-white window on the hotel across the water that should not exist.
+- **One wrong colour**: a single pale green-white window on the hotel on its rise that should not exist.
 
 ## Roblox Lighting starting values (tune in Studio)
 | Setting | Value |
@@ -26,7 +26,7 @@ Art direction for the [[Spawn Island]]: **dark night, bright stylised Roblox acc
 | Moon | Visible, partly behind clouds |
 
 ## Sound
-- Waves against the pier, wind, distant fog horn every minute or so.
+- Wind in the pines, an owl now and then, the distant hum of the hotel, a shuttle engine echoing in the tunnel.
 - Buzzing street lamps, a creaking sign.
 - Rarely: the phone box in the plaza rings once and stops.
 - No music on the island, or a very quiet piano loop that matches the hotel lobby.

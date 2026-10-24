@@ -155,9 +155,9 @@ Priority: **P1** = first playable floor ([[Roadmap#Phase 2 — Build the first s
 | Room 0 door (design depends on [[Room 0#The secret]]) | P3 |
 
 ## Spawn island
-Stylised Roblox look on a dark night, not Halloween ([[Art Bible]], [[Spawn Mood and Lighting]]). See [[Spawn Island]]. **All finished models are detailed, textured Blender meshes**; Studio Parts are only for blockout, collisions and Neon glow. Zone names changed in the redesign: Staff plaza is now Quay Street + Key Plaza, Shuttle bay is the Shuttle Terminal, Staff locker hall is the Staff House.
+Stylised Roblox look on a dark night, not Halloween ([[Art Bible]], [[Spawn Mood and Lighting]]). See [[Spawn Island]]. **All finished models are detailed, textured Blender meshes**; Studio Parts are only for blockout, collisions and Neon glow. Redesigned 2026-10-24 as **Ashbourne Hollow**, an enclosed round hollow ringed by mountains and pines, with **no water**. The pier and ferry are cut. Staff plaza is now the Key Plaza with a ring road, Shuttle bay is the Shuttle Terminal (with a mountain tunnel), and Staff locker hall is the Staff House. New: stylised mountain/rock kit, pine tree set (3 sizes), hedges, iron gates, stone tunnel portal, Staff Canteen front, overlook terrace, and a more detailed hotel (wings, porch, balconies, mansard roof).
 
-### Arrival pier
+### Arrival pier (CUT 2026-10-24: no water in Ashbourne Hollow)
 | Model | Priority |
 |---|---|
 | Modular wooden pier planks, posts, railings | P1 |

@@ -15,7 +15,7 @@ Each lobby is a **gold neon pad** in front of a staff shuttle van in the [[Spawn
 | Empty | `0/4  WAITING` | Doors open, headlights off |
 | Filling | `2/4  LEAVING IN 0:20` | The countdown starts when the first player boards |
 | Full | `4/4  DEPARTING` | Doors close, engine starts, everyone teleports |
-| Leaving | `DEPARTED` | Screen fades, the travel cutscene plays, and a new empty van rolls in |
+| Leaving | `DEPARTED` | The van drives into the mountain tunnel, the screen fades, the travel cutscene plays, and a new empty van rolls in |
 
 ## Rules
 - **Max 4 players** per shift.
