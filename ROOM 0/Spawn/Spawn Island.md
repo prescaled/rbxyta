@@ -57,7 +57,7 @@ Built in the stylised Roblox look from the [[Art Bible]] (style reference: *Anim
 ## Size and performance
 - Keep it **small and dense** (changed 2026-10-24: the first build was far too wide): about 260 x 150 studs, a 20 to 30 second walk from end to end. Every corner should have something to look at.
 - Fog hides the island's edges and keeps the part count low.
-- Use **StreamingEnabled**, and reuse modular pieces (lamps, fences, cobble tiles). Most pieces are Parts built in Studio, so they stay cheap.
+- Use **StreamingEnabled**, and reuse modular pieces (lamps, fences, cobble tiles). Detailed textured meshes are reused as modular kit pieces to keep memory low.
 
 ## Models
 See [[Blender Model List#Spawn island]].

@@ -25,8 +25,8 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 | R0_Spawn_StoneWall + R0_Spawn_IronFence (modular) | P+C | review (Blender done, spawn/R0_Spawn_Kit.blend) |
 | R0_Spawn_Bench, R0_Spawn_Bin, R0_Spawn_Signpost | P+C | review (Blender done, spawn/R0_Spawn_Kit.blend) |
 | Spawn place blockout + lighting (Roblox, Spawn place only) | P+C | replaced by the stylised rebuild below |
-| Spawn island stylised rebuild (Ashbourne Quay, parts-built, Spawn place only) | P+C | in progress (2026-10-24) |
-| Stylised remake of StreetLamp, ShuttleVan, spawn kit (flat colours, chunky) | P+C | in progress (2026-10-24) |
+| Spawn island stylised rebuild (Ashbourne Quay, detailed textured meshes, Spawn place only) | P+C | claimed (paused 2026-10-24) |
+| Detailed stylised remake of StreetLamp, ShuttleVan, spawn kit + new Quay models | P+C | claimed (paused 2026-10-24) |
 
 ## Shared library items
 | Item | Owner | Status | Used in |

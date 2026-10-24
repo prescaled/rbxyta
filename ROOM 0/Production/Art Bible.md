@@ -7,21 +7,22 @@ status: proposal
 
 The one art standard both AIs follow, so models from Claude and Codex look like the same game. Workflow: [[Collaboration Workflow]].
 
-## Look (decided 2026-10-24: stylised Roblox look)
-**Chunky, clean, bright-against-dark Roblox style.** The user's reference is the spawn of *Animal Hospital* (screenshots in `rbxyta-assets/reference/style/`). Copy the **style only**, never its layout, buildings, signs or Halloween decoration. Everything we build is the Ashbourne Hotel's own world.
+## Look (decided 2026-10-24: detailed stylised Roblox look)
+**Stylised like a popular Roblox game, but detailed.** The user's reference is the spawn of *Animal Hospital* (screenshots in `rbxyta-assets/reference/style/`). It shows the *kind* of object models we want: readable, slightly chunky, warm, clearly "Roblox". Copy the **style only**, never its layout, buildings, signs or Halloween decoration. Everything we build is the Ashbourne Hotel's own world.
 
-What "the Roblox feel" means for us:
-- **Simple, bold shapes.** Big readable silhouettes, slightly oversized proportions (thick lamp posts, fat kerbs, deep window frames, big signs). No fine realistic detail, no photo textures.
-- **Flat colour, few materials.** SmoothPlastic and a few Roblox materials (Brick, Cobblestone, WoodPlanks, Slate, Metal, Glass, **Neon**). In Blender: flat colour materials or one small palette texture, no PBR maps.
-- **Bright accents on a dark night.** Dark blue night and dark buildings, then strong warm light: amber lamps with visible glow, cream lit windows, gold Neon outlines on interactive spots.
-- **Glowing interactables.** Anything you can use (lobby pads, class pedestals, shop counter) has a **gold Neon ring or outline**, so players can read the space from far away.
-- **Big floating labels.** BillboardGuis in a chunky serif font (Merriweather / Garamond-style, gold fill, dark stroke) over every zone and pad: "Shuttles", "Staff Lockers", `2/4`, `0:20`.
-- **Dense and busy.** Lots of small props (benches, bins, crates, planters, posters, signs) so every corner has something, like the reference.
-- **Our identity, not Halloween:** no pumpkins, cobwebs, spiders, gravestones or orange-and-purple themes. Our signature colours are **Ashbourne burgundy, brass-gold and deep teal**.
+**Not flat blocks.** Plain coloured boxes are only for blockout. Every finished model, wall, floor and ceiling must have real detail. The hotel is full of tasks and props, so it needs lots of things to look at.
 
-Most models are **built from Parts in Studio** (fast, native Roblox feel, editable by both AIs). Blender is for curved or hero shapes only (shuttle van, lamp heads, mannequins, characters), exported low-poly with flat colours.
+What that means:
+- **Shapes**: stylised proportions (a bit chunky, easy to read from a distance), but real modelled detail. Bevels, frames, trims, mouldings, panels, handles, hinges, bolts, cushions, folds, and wear on the edges.
+- **Walls and buildings**: never one flat part. Use layers: skirting board, dado rail, wainscot panels, wallpaper above, crown moulding, door and window frames with sills, pilasters, brick with stone quoins and lintels outside, gutters and pipes, signs, awnings, lit windows with curtains.
+- **Floors and ceilings**: patterned carpet with borders, tiles with grout, wooden boards, rugs, ceiling coves, light fittings, vents.
+- **Textures**: hand-painted or stylised textures (not photos), 512 to 1024 px. Use colour plus normal maps through SurfaceAppearance where it helps, or Roblox MaterialVariants for walls and floors (brick, wallpaper, carpet, tiles, planks). Shared trim sheets live in `textures/`.
+- **Models come from Blender** (via MCP or headless), textured, as MeshParts. Studio Parts are only for blockout, collisions and simple glowing bits (Neon rings, light strips).
+- **Lighting and readability** (from the reference): dark blue night outside, strong warm lamps with glow, cream lit windows, a **gold Neon ring or outline** on anything you can use (lobby pads, class pedestals, shop counter, task spots), and **big floating serif labels** (gold fill, dark stroke) over pads and zones.
+- **Dense**: every corner has props (benches, bins, crates, planters, posters, trolleys, carts, signs).
+- **Our identity, not Halloween**: no pumpkins, cobwebs, spiders, gravestones or orange-and-purple themes. The signature colours are **Ashbourne burgundy, brass gold and deep teal**.
 
-Older notes said "realistic, worn 1990s hotel". That still describes the *story setting* (1990s, a bit tired), but it is now drawn in this stylised way.
+The story setting is still a 1990s hotel that's a bit tired. It's drawn in this detailed stylised way.
 
 ## Scale (Roblox studs)
 | Thing | Size |
@@ -77,4 +78,4 @@ In Blender, set up one **template scene** with these reference sizes and a dummy
 | Foliage (dark pine green) | #24402F |
 | Stone / kerb grey | #8A8D93 |
 
-Triangle budgets above stay, but stylised models should come in **well under** them.
+Triangle budgets above stay. Spend them on silhouette and detail you can see, not on hidden faces.
