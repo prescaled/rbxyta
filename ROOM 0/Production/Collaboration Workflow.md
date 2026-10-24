@@ -34,7 +34,7 @@ Next split, once the first areas are done: Claude takes [[Anomalies]] (predators
 - Tell the Roblox MCP session which folder it owns at the start of every session ("You own Workspace/Spawn_*. Do not touch anything else.").
 
 ## 3. Blender: one file per area, one shared library
-- Keep Blender sources in a **separate private asset repo** (with **Git LFS** for `.blend` and textures), or a shared cloud folder. Do not put them in this public vault.
+- Blender sources live in the **private repo https://github.com/prescaled/rbxyta-assets** (Git LFS for `.blend`, `.fbx`, textures and audio; set up 2026-10-24). Do not put them in this public vault.
 - Folder layout:
   ```
   rbxyta-assets/

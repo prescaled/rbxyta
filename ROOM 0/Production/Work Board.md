@@ -14,6 +14,7 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 |---|---|---|
 | Spawn place: pier, plaza, shuttle bay, locker hall, lighting | P+C | claimed |
 | Hotel floor 1: reception, lobby, corridor, guest rooms, staff room | R+X | claimed |
+| Asset repo setup (rbxyta-assets: folders, LFS, rules) | P+C | done |
 
 ## Shared library items
 | Item | Owner | Status | Used in |
