@@ -19,6 +19,7 @@ Only things that fit a mystery hotel, not combat:
 | Scary story events (night 3+) | 10 to 30 | [[Strange Events]] |
 | Power cut: walking into things in the dark | 5 | [[Strange Events]] |
 | Something "touches" you in a corridor | 25 | [[Incidents]] |
+| Predator attacks | 15 to 40 | [[Anomalies]] |
 | Falls (stairs, ladder) | 5 to 15 | Maintenance |
 | Staying too long near a "wrong" room | Damage over time | [[Room 0]] clues |
 

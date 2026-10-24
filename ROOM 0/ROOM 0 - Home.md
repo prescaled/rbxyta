@@ -45,6 +45,9 @@ Visual version: [Miro board "ROOM 0 — Ashbourne Hotel"](https://miro.com/app/b
 - [[Hotel Shop]]: boosts, opening window, Robux reroll
 - [[Variable Rewards]]: random rewards for certain actions
 - [[Economy]]: how coins come in and go out
+- [[Cutscenes]]: POV cinematics, like arriving at the hotel
+- [[CCTV System]]: watch cameras, report anomalies
+- [[Anomalies]]: anomalies to report and predators to kill
 
 ## Spawn and players
 - [[Spawn Island]]: the hub players start on

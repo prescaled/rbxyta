@@ -14,7 +14,7 @@ Strange events during a shift. They should create [[Player Experience|curiosity 
 - **Corridors change** overnight ([[Ashbourne Hotel]]).
 - **Rooms appear on camera but not on the floor plans**.
 
-More events, by area and night: [[Strange Events]].
+More events, by area and night: [[Strange Events]]. Threats that hunt players: [[Anomalies]].
 
 ## Types
 - **Harmless**: odd but safe. Teaches players not to run from everything.

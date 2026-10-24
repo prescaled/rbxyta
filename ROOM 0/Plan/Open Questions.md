@@ -44,6 +44,8 @@ Brainstorm only. **None of these are canon.** Each is tested against the require
 - Exact unlock costs and stats for each class ([[Classes]])
 - Is there a sanity / fear meter as well as health? ([[Health]])
 - Knocked-out penalty: how harsh? ([[Health]])
+- Can predators be killed for good, or do they come back the next night? ([[Anomalies]])
+- Weapons: carried by everyone, or picked up in the hotel? ([[Anomalies]])
 - Spawn island concept: is "Ashbourne Staff Quay" with shuttles the right fit? ([[Spawn Island]])
 
 ## 4. Content and business

@@ -67,7 +67,7 @@ Priority: **P1** = first playable floor ([[Roadmap#Phase 2 — Build the first s
 ### Security cameras
 | Model | Priority |
 |---|---|
-| Wall cameras (corridor, lobby, lift) | P1 |
+| Wall cameras (corridor, lobby, lift), 8 to 12 on the first floor ([[CCTV System]]) | P1 |
 | Monitor bank (CRT screens) + control desk | P1 |
 | Office chair, VHS recorder, tape stack | P1 |
 | Logbook, clipboard | P2 |
@@ -229,6 +229,39 @@ Dark, foggy, realistic night setting, not Halloween ([[Spawn Mood and Lighting]]
 | First aid kit, plasters, painkillers (pickups) | P1 |
 | Staff-room cot (wake-up spot after being knocked out) | P1 |
 
+## Cutscenes
+| Model | Priority |
+|---|---|
+| Shuttle van interior (seats, dashboard, wipers, rain on glass) | P1 |
+| Hotel gates (wrought iron, opening animation) | P1 |
+| Hotel driveway, front steps, entrance canopy (close-up quality) | P1 |
+| Time clock + punch cards (close-up quality) | P1 |
+| Staff-room cot (wake-up shot) | P1 |
+| Sunrise lobby windows, curtains | P2 |
+| Inspector's clipboard, pen (hero prop) | P2 |
+
+## Anomalies and predators
+Make each one an animated rig (Blender armature, exported for Roblox). No gore: they dissolve into static when killed.
+
+| Model | Notes | Priority |
+|---|---|---|
+| **The Bellhop** | Too tall, long arms, 1998 bellhop uniform, cap, face in shadow | P1 |
+| **The Housekeeper** | Hunched, old uniform, with her own rusty cart | P2 |
+| **The Vent Crawler** | Thin, folds into vents, plus a vent-opening animation | P2 |
+| **The Faceless Guest** | Normal guest body with a smooth, blank face (swap-in head) | P1 |
+| **The Occupant** | Never fully shown: hand on a door, shadow under a door, footprints | P3 |
+| Anomaly variants | Duplicate props, wrong door numbers, rearranged-room sets | P1 |
+| Camera-only figure | Simple dark silhouette, CCTV only | P1 |
+| Dissolve / static effect | Particle + mesh effect when a predator dies | P1 |
+
+## Weapons and tools (hotel items)
+| Model | Priority |
+|---|---|
+| Heavy flashlight | P1 |
+| Wrench, mop handle | P1 |
+| Fire extinguisher (stun) | P1 |
+| Hand bell (lure / distraction) | P2 |
+
 ## Characters (NPCs)
 | Model | Priority |
 |---|---|
@@ -240,4 +273,4 @@ Dark, foggy, realistic night setting, not Halloween ([[Spawn Mood and Lighting]]
 | [[Daniel Mercer]] | P2 |
 
 ## Counting the work
-About **210+ unique models** before variants, including the spawn island. With two people, plan roughly **P1 first (about 120 models)**, then add P2 alongside [[Content Strategy|video production]].
+About **240+ unique models** before variants, including the spawn island. With two people, plan roughly **P1 first (about 140 models)**, then add P2 alongside [[Content Strategy|video production]].
