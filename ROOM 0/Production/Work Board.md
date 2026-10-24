@@ -17,11 +17,20 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 | Modular corridor kit: straight wall, corner, door-frame wall, floor, ceiling, skirting, carpet runner, room door and swappable number plaque (digits 0-9) | R+X | claimed |
 | Asset repo setup (rbxyta-assets: folders, LFS, rules) | P+C | done |
 
+## Spawn kit (P+C, claimed 2026-10-24)
+| Item | Owner | Status |
+|---|---|---|
+| R0_Spawn_Cobble_Tile (wet cobblestone, 8x8 studs) + kerb + drain | P+C | claimed |
+| R0_Spawn_Pier_Plank / Post / Railing (modular pier) | P+C | claimed |
+| R0_Spawn_StoneWall + R0_Spawn_IronFence (modular) | P+C | claimed |
+| R0_Spawn_Bench, R0_Spawn_Bin, R0_Spawn_Signpost | P+C | claimed |
+| Spawn place blockout + lighting (Roblox, Spawn place only) | P+C | claimed |
+
 ## Shared library items
 | Item | Owner | Status | Used in |
 |---|---|---|---|
-| R0_Prop_StreetLamp | P+C | todo | Spawn, hotel exterior |
-| R0_Spawn_ShuttleVan | P+C | todo | Spawn, arrival cutscene |
+| R0_Prop_StreetLamp | P+C | claimed | Spawn, hotel exterior |
+| R0_Spawn_ShuttleVan | P+C | claimed | Spawn, arrival cutscene |
 | R0_Char_Uniforms (7 classes) | P+C | todo | Spawn locker hall, hotel |
 | R0_Char_Inspector | R+X | todo | Hotel, dawn cutscene |
 | R0_Char_Guests (6 looks) | R+X | todo | Hotel, spawn background |
