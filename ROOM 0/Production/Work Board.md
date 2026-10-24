@@ -30,7 +30,7 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 | Item | Owner | Status | Used in |
 |---|---|---|---|
 | R0_Prop_StreetLamp | P+C | review (Blender done, 824 tris; Roblox import + Package pending) | Spawn, hotel exterior |
-| R0_Spawn_ShuttleVan | P+C | claimed | Spawn, arrival cutscene |
+| R0_Spawn_ShuttleVan | P+C | review (Blender done, 1,688 tris; Roblox import + Package pending) | Spawn, arrival cutscene |
 | R0_Char_Uniforms (7 classes) | P+C | todo | Spawn locker hall, hotel |
 | R0_Char_Inspector | R+X | todo | Hotel, dawn cutscene |
 | R0_Char_Guests (6 looks) | R+X | todo | Hotel, spawn background |
