@@ -8,7 +8,7 @@ status: decided-core
 **Decided 2026-10-24:** spawn has places for players to start lobbies that show **0/4 players**.
 
 ## The shuttle lobby (proposal)
-Each lobby is a **staff shuttle van** parked on the [[Spawn Island#Zones|Shuttle Road]]. Next to its sliding door is a **glowing yellow pad** on the pavement; standing on the pad joins the lobby. A **floating counter** above the pad (BillboardGui, Roblox style) shows the count and timer. (Changed 2026-10-24: pads instead of climbing inside the van, because they read better.)
+Each lobby is a **staff shuttle van** parked in the [[Spawn Island#Zones|Shuttle Bay]]. A board above it shows the count.
 
 | State | Board shows | What happens |
 |---|---|---|
@@ -20,7 +20,7 @@ Each lobby is a **staff shuttle van** parked on the [[Spawn Island#Zones|Shuttle
 ## Rules
 - **Max 4 players** per shift.
 - **Countdown**: 20 seconds after the first player boards, reset to 10 seconds when someone new joins. It leaves when full or when the timer ends.
-- **Leave**: step off the pad to leave the lobby.
+- **Leave**: step out of the van to leave the lobby.
 - **Party host**: the first player in can set the van to **Friends only** or **Open**.
 - **Solo shift**: one van marked `SOLO` leaves straight away with one player.
 - **Class check**: you need a class picked before you can board. It defaults to Trainee ([[Classes]]).

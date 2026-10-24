@@ -5,32 +5,31 @@ status: proposal
 
 # Spawn Mood and Lighting
 
-Art direction for the [[Spawn Island]]: **a warm, lively night street in Roblox style, with a spooky hotel across the water.** Style rules: [[Art Bible#Look (updated 2026-10-24: Roblox style)]].
-
-**Changed 2026-10-24:** the first version (dark, foggy, realistic, grey) looked too empty and not like a Roblox game. The spawn is now bright enough to read, warm and busy. The hotel across the water carries the creepy part.
+Art direction for the [[Spawn Island]]: **dark and quiet, not Halloween.**
 
 ## Palette
-- **Sky and water**: dark navy night sky, stars, a big moon, dark water.
-- **Warm street**: orange street lamps, yellow lit windows, red and cream buildings, brass signs, glowing yellow lobby pads.
-- **The hotel**: big and close, with its lit sign **THE ASHBOURNE** in brass letters and warm windows. One pale green-white window sits on a floor the hotel should not have.
+- **Cold**: deep navy sky, blue-grey fog, black water, moonlight.
+- **Warm accents**: sodium-orange street lamps, warm windows of the [[Ashbourne Hotel]] across the water.
+- **One wrong colour**: a single pale green-white window on the hotel that should not exist.
 
 ## Roblox Lighting starting values (tune in Studio)
 | Setting | Value |
 |---|---|
-| ClockTime | 0 (midnight) |
-| Brightness | 2 |
-| Ambient | (70, 64, 84) |
-| OutdoorAmbient | (95, 90, 120) |
-| Atmosphere | Density 0.28, Haze 0.6, Color (70, 70, 105): a light haze only, the hotel stays visible |
-| ColorCorrection | Saturation +0.15, Contrast +0.1, slight warm tint |
-| Bloom | Intensity 0.9, Size 24, Threshold 0.9, so Neon lights and pads glow |
-| Lights | Street lamps: PointLight orange, Range 22, Brightness 2; windows are Neon |
+| ClockTime | 0.5 (just after midnight) |
+| Brightness | 1 |
+| Ambient / OutdoorAmbient | Very dark blue-grey |
+| Atmosphere | Density 0.4, Haze 2, Color cool grey |
+| Fog / distance | Island edges fade out at about 250 studs |
+| ColorCorrection | Saturation -0.2, Contrast +0.1, slight blue tint |
+| Bloom | Low, so street lamps glow softly |
+| Moon | Visible, partly behind clouds |
 
 ## Sound
-- Waves against the quay, wind, a distant fog horn every minute or so.
-- Buzzing street lamps, a creaking sign, the café's quiet radio.
-- Rarely: the phone box rings once and stops.
+- Waves against the pier, wind, distant fog horn every minute or so.
+- Buzzing street lamps, a creaking sign.
+- Rarely: the phone box in the plaza rings once and stops.
+- No music on the island, or a very quiet piano loop that matches the hotel lobby.
 
 ## Rules
-- No permanent Halloween props, cartoon ghosts or jump scares on the spawn. It is the safe space; the fear starts in the hotel. Seasonal decorations only as events.
-- Keep every path lit, so players never get lost.
+- No Halloween props, no cartoon ghosts, no jump scares on the island. It is a safe space; the fear starts in the hotel.
+- Keep the path lit with lamps, so players never get lost.
