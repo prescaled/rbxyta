@@ -8,7 +8,7 @@ status: decided-direction
 **Decided 2026-10-25 by the user:** the first hotel build looked bad. Every room looked the same, objects seemed randomly placed, walls had gaps, and the corridors were cramped. The whole interior gets a **full redesign of every model and room**. The floor plan from the brief stays as a starting point, but it gets wider. The ROOM 0 game ideas all stay: [[Shift Tasks]], [[Guests]], [[Hotel Shop]], [[CCTV System]], [[Strange Events]], [[Anomalies]], [[End of Shift Inspection]], [[Classes]], [[Health]].
 
 ## The target feel
-**A first-person, story-driven "quest room" game inside a hotel.** You play a night-shift worker who helps guests, solves small mysteries and notices things that are wrong. Every room should feel like a hand-built level with its own identity, things to look at, and a reason to be there.
+**A first-person game inside a hotel, with the hand-built, detailed "quest room" look of good Roblox interiors.** You play a night-shift worker doing the shift tasks, looking after guests and noticing things that are wrong. Every room should feel like a hand-built level with its own identity, things to look at, and a reason to be there.
 
 Reference images (style, not layout): `rbxyta-assets/reference/style/hotel_ref_01-03.png`, also in project files under `roomzero-style/hotel/`:
 1. **Grand lounge-lobby** (ref 01). A double-height space split into zones: round tables with green velvet tub chairs on bold patterned rugs, a sunken lounge with glowing step edges, a central fireplace column, sputnik chandeliers and lantern pendants, a mezzanine with railings, tall windows and a skylight at night, ivy hanging from above, slatted wooden ceilings. Lots of depth and layering.
@@ -51,7 +51,7 @@ Each room lists its **theme**, its **signature piece**, its **light** and its **
 | **Reception** (ref 02) | **Art deco**: black marble pillars, gold stepped arches, red carpet runner, a curved marble-and-brass desk, a neon "RECEPTION" sign | **The desk**, with built-in **CCTV monitor screens** behind it (a bank of 6 small CRTs showing live camera feeds), a key wall with brass keys (hook 113 empty), a desk bell, register, CRT computer, switchboard | Neon sign, brass desk lamps, warm downlights | **Check-in**, **room calls**, **quick CCTV check** from the desk (the full camera room is still the Security Room) |
 | **Grand staircase** | Imperial stairs, red runner with brass rods, carved balusters, a stained-glass window at the landing | Stained-glass window with the Ashbourne crest | Wall sconces, glow through the stained glass | Path to the guest floor |
 | **Restaurant "The Ashbourne Grill"** (ref 03) | **Retro 1990s diner-grill**: checkered floor, burgundy booths, counter with stools, bare-bulb pendants, glowing ceiling panels, framed photos | The counter with a pie display and coffee machine | Ceiling light panels and bulb pendants | **Room service pickups**, food orders for guests |
-| **Lounge bar** | Dark green velvet, a back-lit bottle wall (no branding), leather armchairs, a jazz record player, a library corner with a rolling ladder | The glowing back bar | Back-lit shelves, table lamps | Drink deliveries, a guest quest NPC, a hidden clue in the library |
+| **Lounge bar** | Dark green velvet, a back-lit bottle wall (no branding), leather armchairs, a jazz record player, a library corner with a rolling ladder | The glowing back bar | Back-lit shelves, table lamps | Drink deliveries, a hidden clue in the library |
 | **The Night Counter (shop)** | A cosy old gift shop: wooden shelves, a glass display case lit from inside, a striped awning over the counter, a roller shutter, a chalkboard | A lit display case holding the boosts | Display lighting, a neon OPEN/CLOSED sign | **Hotel Shop**, Robux reroll bell |
 | **Old Ballroom (closed)** | Dust sheets, a fallen chandelier, a stage with a red curtain, a "New Year 1998" banner, stacked chairs | The fallen chandelier in the middle of the floor | Moonlight through tall windows, one work lamp | Restricted area, story events |
 
@@ -74,15 +74,15 @@ Each room lists its **theme**, its **signature piece**, its **light** and its **
   4. **Teal Retro 90s**: a CRT TV, a patterned bedspread.
   5. **Garden Room**: plants and floral wallpaper.
   6. **Writer's Room**: a desk with a typewriter and books.
-- **Each room** has a proper bathroom (tiles, bath or shower, sink with a mirror and lights, towels) and a window with a view of the fog and pines. Rooms change between **clean and messy** states, and requests appear as glowing quest markers.
+- **Each room** has a proper bathroom (tiles, bath or shower, sink with a mirror and lights, towels) and a window with a view of the fog and pines. Rooms change between **clean and messy** states for the cleaning tasks.
 - **Room 113** doesn't exist, but its door sometimes appears. The east wing past 112 is **closed for renovation**: plastic sheets, scaffolding, exposed lath.
 - **Room 214** (Floor 2, later) is Daniel Mercer's room, frozen in 1998.
 
-## Quest layer (how the hotel plays like a quest game)
-- **Guests are quest givers.** A guest NPC with a marker above their head asks for something ("My key card stopped working", "There's someone knocking from 113", "Bring me tea at 2 a.m."). Quests use the [[Shift Tasks]] spots and [[Guests]] rules.
-- **Mysteries** chain small clues across rooms (a note in the lounge library, a CCTV glitch, a key in the laundry) and are logged in the **Journal** (the UI button in spawn).
-- **Clear guidance**: an objective line at the top of the screen, gold glowing interact spots, room signs, and a small floor map at reception and on each corridor.
-- Night structure stays: guests arrive, tasks and quests, shop window, strange events escalate, the Inspector grades the shift and pays coins.
+## Gameplay stays as designed (user 2026-10-25: guests do NOT give quests)
+- "Quest room" describes the **look and feel** of the rooms (hand-built, detailed, explorable in first person), **not** a quest-giver system. There are **no quest-giver NPCs and no quest markers over guests**.
+- Gameplay is the existing design: [[Shift Tasks]] (check-in, deliveries, cleaning, maintenance, CCTV, room calls), guest needs as described in [[Guests]], the [[Hotel Shop]] window, [[Strange Events]] and [[Anomalies]], and the [[End of Shift Inspection]].
+- Mysteries come from the hotel itself (events, CCTV, clue props in rooms), logged in the Journal.
+- Guidance: gold interact spots, room signs, and floor maps at reception and in corridors.
 
 ## Build order (v2)
 1. **Wall, floor and ceiling kit v2**: clean modules with joint-covering trims; check them with zero gaps.
