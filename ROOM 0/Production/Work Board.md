@@ -12,7 +12,7 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 ## Areas
 | Area | Owner | Status |
 |---|---|---|
-| Shift loop v1 (game code) | R+X | claimed (2026-10-25: scripts only in R0_Game folders; sources rbxyta-assets/game; no HotelV2, lighting or Hotel_* build changes) |
+| First shift: guests, requests and shift tasks (game code) | R+X | claimed (2026-10-25: v3 replaces earlier brief; named bookings and physical task steps; scripts only in R0_Game; sources rbxyta-assets/tools/studio_hotel/shift; HotelV2 remains P+C-owned) |
 | Spawn place: pier, plaza, shuttle bay, locker hall, lighting | P+C | claimed |
 | Hotel floor 1: reception, lobby, corridor, guest rooms, staff room | P+C | review (2026-10-25: ground floor + F1 built in the Hotel place from Codex's layout; 30 rooms furnished, 71 task spots, 12 CCTV, doors, plaques, lighting zones; handed over from R+X at sxdf's request) |
 | Modular corridor kit: straight wall, corner, door-frame wall, floor, ceiling, skirting, carpet runner, room door and swappable number plaque (digits 0-9) | R+X | building |
