@@ -24,6 +24,8 @@ What that means:
 
 The story setting is still a 1990s hotel that's a bit tired. It's drawn in this detailed stylised way.
 
+Hotel interiors follow [[Hotel Interior Redesign]] (v2, 2026-10-25): first-person quest-game feel, a unique theme per room, corridors 12 wide.
+
 ## Scale (Roblox studs)
 | Thing | Size |
 |---|---|
