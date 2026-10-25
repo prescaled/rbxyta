@@ -13,12 +13,12 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 | Area | Owner | Status |
 |---|---|---|
 | Spawn place: pier, plaza, shuttle bay, locker hall, lighting | P+C | claimed |
-| Hotel floor 1: reception, lobby, corridor, guest rooms, staff room | P+C | building (handed over from R+X at sxdf's request 2026-10-25; Rivin to confirm and pause Codex on the hotel) |
+| Hotel floor 1: reception, lobby, corridor, guest rooms, staff room | P+C | review (2026-10-25: ground floor + F1 built in the Hotel place from Codex's layout; 30 rooms furnished, 71 task spots, 12 CCTV, doors, plaques, lighting zones; handed over from R+X at sxdf's request) |
 | Modular corridor kit: straight wall, corner, door-frame wall, floor, ceiling, skirting, carpet runner, room door and swappable number plaque (digits 0-9) | R+X | building |
-| Hotel interior kit | P+C | building (handed over from R+X at sxdf's request 2026-10-25; reuses Codex's library models) |
+| Hotel interior kit | P+C | review (2026-10-25: R0_Hotel_F1_Import.fbx, 143 models + Codex's library; build script tools/studio_hotel/src/HotelBuild.lua) |
 | Grand Lobby + Vestibule + Grand Staircase | P+C | building (handed over from R+X at sxdf's request 2026-10-25; reuses Codex's library models) |
 | Asset repo setup (rbxyta-assets: folders, LFS, rules) | P+C | done |
-| Hotel place (second place in the experience; move hotel out of the Spawn place) | P+C | building (2026-10-25) |
+| Hotel place (second place in the experience; move hotel out of the Spawn place) | P+C | review (2026-10-25: place 133290122655457 built; Spawn place cleared of the hotel draft; HotelPlaceId set in the spawn Config) |
 
 ## Spawn kit (P+C, claimed 2026-10-24)
 | Item | Owner | Status |
