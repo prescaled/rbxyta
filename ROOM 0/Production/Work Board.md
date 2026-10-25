@@ -13,11 +13,12 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 | Area | Owner | Status |
 |---|---|---|
 | Spawn place: pier, plaza, shuttle bay, locker hall, lighting | P+C | claimed |
-| Hotel floor 1: reception, lobby, corridor, guest rooms, staff room | R+X | claimed |
+| Hotel floor 1: reception, lobby, corridor, guest rooms, staff room | P+C | building (handed over from R+X at sxdf's request 2026-10-25; Rivin to confirm and pause Codex on the hotel) |
 | Modular corridor kit: straight wall, corner, door-frame wall, floor, ceiling, skirting, carpet runner, room door and swappable number plaque (digits 0-9) | R+X | building |
-| Hotel interior kit | R+X | building |
-| Grand Lobby + Vestibule + Grand Staircase | R+X | building |
+| Hotel interior kit | P+C | building (handed over from R+X at sxdf's request 2026-10-25; reuses Codex's library models) |
+| Grand Lobby + Vestibule + Grand Staircase | P+C | building (handed over from R+X at sxdf's request 2026-10-25; reuses Codex's library models) |
 | Asset repo setup (rbxyta-assets: folders, LFS, rules) | P+C | done |
+| Hotel place (second place in the experience; move hotel out of the Spawn place) | P+C | building (2026-10-25) |
 
 ## Spawn kit (P+C, claimed 2026-10-24)
 | Item | Owner | Status |
