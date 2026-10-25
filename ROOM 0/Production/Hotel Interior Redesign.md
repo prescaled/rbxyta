@@ -38,6 +38,7 @@ Our identity still applies: an old, half-abandoned grand mountain hotel at night
 - **One snap grid**: 1 stud, with walls on a 4-stud grid. Wall pieces have **corner posts and trim strips that cover the joints**. Every wall run is built as one continuous piece per room side, not loose tiles.
 - **Every room is designed as a fixed layout** (hand-made positions per room), never randomly scattered. Furniture sits in groups facing each other or the room's focus, with clear walking paths at least 4 studs wide.
 - **The automated check runs after every change**: overlaps, gaps between walls (any light leak or gap over 0.05 studs), floating parts, blocked doors, unreachable task spots. Zero failures before showing anything.
+- **The check also covers surfaces** (added 2026-10-25): floor gaps, two different floors coplanar and overlapping (z-fighting), stair rods standing upright, any prop (deco too: throws, curtains, plant fronds) cutting more than 0.12 into other furniture, carpet that stops short of a wall, skirting or door, and invisible walk slabs less than 0.1 under the finished floor. Ground-floor walls stop at 15.9, just under the first-floor finish.
 - **Review gate**: build **one room fully** first, check it from first-person screenshots, then get the user's OK before cloning the approach to the next rooms.
 
 ## Room-by-room design (v2)
