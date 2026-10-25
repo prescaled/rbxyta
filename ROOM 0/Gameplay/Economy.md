@@ -18,6 +18,7 @@ How coins flow in ROOM 0.
 | Sink | Notes |
 |---|---|
 | [[Hotel Shop]] boosts | Main sink, items last one shift |
+| [[Classes]] unlocks | Permanent earned-role purchases; proposed coin calibration and shift requirements in [[Classes - Core and Progression]] |
 | (Later) cosmetics: uniforms, name badges, lockers | Optional, good long-term sink |
 
 ## Robux

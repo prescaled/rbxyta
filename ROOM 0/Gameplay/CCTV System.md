@@ -15,7 +15,7 @@ status: decided-core
 - **Anomaly reports**: spot something wrong on a feed, take a snapshot, and press **Report**. A correct report removes the anomaly and pays coins. A false report costs a little time. (Like "I'm on Observation Duty".)
 - **Only-on-camera things**: some [[Anomalies]] are only visible on CCTV, which makes the camera player essential.
 - **Guide the team**: the camera player can ping a location for teammates ("someone is behind you").
-- **Night Security** class can view feeds on a handheld radio ([[Classes]]).
+- The earlier **Night Security** idea is developed as **Night Watchman** in [[Classes - Security Records and Leadership]]: brief portable camera checks and manually compared reference frames. The full security desk remains available to every class. These limits are proposed, not a deployed implementation.
 
 ## Why it matters
 - Gives a calm-but-tense job for players who prefer watching.

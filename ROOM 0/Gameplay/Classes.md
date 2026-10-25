@@ -1,37 +1,53 @@
 ---
-tags: [room0, gameplay, classes]
-status: decided-core
+tags: [room0, gameplay, classes, design]
+status: detailed-proposal
+updated: 2026-10-25
 ---
 
 # Classes
 
-**Decided 2026-10-24:** players can view different classes on the [[Spawn Island]]. Classes give **benefits that help while working in the hotel**: special items for better classes, higher HP, or faster regeneration.
+Updated 25 October 2026. Design pack v1 for Rivin and Prescaled.
 
-The classes are **hotel staff roles**, so they fit the story: you are hired as a particular kind of night-shift employee ([[Night Shift Employees]]).
+## Status and direction
 
-## Class list (proposal, numbers to tune)
-| Class | Unlock | Max HP | Regen | Perk | Special item |
-|---|---|---|---|---|---|
-| **Trainee** | Free | 100 | Normal | None, balanced | Flashlight |
-| **Housekeeper** | Free | 100 | Normal | Cleaning tasks 25% faster | Housekeeping cart (holds 2 towel sets) |
-| **Porter** | 3 shifts | 100 | Normal | +10% walk speed, carries 2 items at once | Luggage trolley |
-| **Maintenance Tech** | 500 coins | 110 | Normal | Repairs 30% faster | Toolbox with spare bulbs and fuses |
-| **Concierge** | 1,000 coins | 100 | +25% | Guest satisfaction drops 20% slower | Guest ledger (shows all open requests) |
-| **Night Security** | 10 shifts | 125 | Normal | Sees camera feeds on a handheld radio | Security radio + strong flashlight |
-| **Night Manager** | 25 shifts + 2,500 coins | 120 | +50% | Small team aura: nearby players regen faster | Master key (opens one locked door per shift) |
+The agreed core remains: players choose hotel staff roles in the Spawn Island Staff Locker Hall, and classes provide useful benefits while working at the Ashbourne. Rivin requested distinctive roles with modest benefits and stronger impact from more expensive classes, then requested this detailed pack in Miro, Obsidian and GitHub.
 
-## How viewing works (in the Staff Locker Hall)
-- Each class stands as a **mannequin in its uniform** on a pedestal, with its special item on a small stand.
-- Walk up to a pedestal to see a **class card**: stats bars (HP, regen, speed), perk, special item, unlock requirement.
-- **Try on**: preview the uniform on your own avatar in a mirror.
-- **Select**: the class goes with you onto the shuttle ([[Lobbies]]).
-- Locked classes show their requirement and a progress bar ("7/10 shifts").
+This is the current detailed design proposal. Its nine-role direction develops the discussed ideas; exact prices, numbers, ability limits and technical behaviours are proposed for playtesting, not a claim of implemented or fully approved balance. Physical work follows [[First Shift Implementation]]: no progress bars or hold-E completion timers, no quest markers over guests, finite stock and real pickup, transport, inspection and handover steps.
 
-## Balance rules
-- Every class must still need the team. No class can do every task well.
-- Perks help, but should never skip a story clue or unlock [[Room 0]].
-- Better classes are earned by **playing** (shifts and coins). Whether any class can be bought with Robux is **undecided** ([[Open Questions]]). Selling power for Robux risks feeling pay-to-win.
-- In a team, two players can pick the same class.
+**Design promise:** each role has a recognisable hotel tool, a useful speciality and a moment where the team is glad they brought it. Higher-cost roles influence more of a shift without replacing every cheaper specialist.
 
-## Models
-Uniforms, mannequins and special items: see [[Blender Model List#Classes]].
+## Read the complete pack
+
+1. [[Classes - Core and Progression]]: common rules, unlocks, price calibration, selection and old-to-new role mapping.
+2. [[Classes - Starter and Service Roles]]: Relief Hand, Housekeeper, Hall Porter and Switchboard Operator.
+3. [[Classes - Technical and Guest Care]]: Maintenance Fitter and Guest Liaison.
+4. [[Classes - Security Records and Leadership]]: Night Watchman, Night Auditor and Night Manager.
+5. [[Classes - Balance and Implementation]]: stacking, supplies, solo play, rewards, information rules, accessibility, implementation priorities and acceptance tests.
+
+## Roster at a glance
+
+- **Relief Hand | free:** learn routine jobs, consult an annotated induction book, help with shared work.
+- **Housekeeper | free:** efficient turnover, two housekeeping supply slots and a recorded room-condition checklist.
+- **Hall Porter | early unlock:** reduced loaded slowdown, three-item trolley and a courtesy bell.
+- **Switchboard Operator | early unlock:** precise call slips, a small acknowledgement allowance and limited contextual follow-up questions.
+- **Maintenance Fitter | middle unlock:** practised repair handling, a stocked parts tin and two temporary fixes.
+- **Guest Liaison | middle unlock:** remembered preferences, modest earned patience and two promises that require follow-through.
+- **Night Watchman | advanced unlock:** 115 proposed HP, brief portable camera checks, two reference stills and consensual escort coordination.
+- **Night Auditor | advanced unlock:** clear booking handovers, three preserved record copies and two structured reconciliations.
+- **Night Manager | highest unlock:** known-work overview, two targeted assistance windows and one brief reception-cover window.
+
+All classes can do the normal hotel work with ordinary equipment. No purchased class is required for evidence, correct anomaly reports, a specific guest outcome or access to Room 0.
+
+## Relationship to earlier notes
+
+[[Classes - Earlier Stat Roster]] preserves the 24 October seven-role proposal. Its old prices, HP/regen values, master-key perk and Manager healing aura are historical alternatives, not additional bonuses to layer onto this pack. Baseline health mechanics remain in [[Health]]. The Watchman's portable monitor develops the earlier Night Security idea in [[CCTV System]].
+
+The new design does not alter the ordinary guest biographies or missing-case explanations. It uses those notes for grounded examples. Relevant sources: [[Shift Tasks]], [[Ordinary Guests - Index]], [[Hotel Shop]], [[Economy]], [[End of Shift Inspection]], [[Progression]], [[Art Bible]] and [[First Shift Implementation]].
+
+## Shared review
+
+Miro is the visual discussion copy; these Markdown chapters hold the same full design text in the shared vault. Change the corresponding chapter when a Miro discussion changes a rule. Class work here is design documentation only: no Roblox scripts, models, ownership claims or deployed systems have been changed.
+
+## Miro copy
+
+[Open this chapter in Miro](https://miro.com/app/board/uXjVEVisZSo=/?moveToWidget=3458764688383994256) | [Class overview on the ROOM 0 board](https://miro.com/app/board/uXjVEVisZSo=/?moveToWidget=3458764688383994882)

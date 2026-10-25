@@ -8,8 +8,8 @@ status: decided-core
 **Decided 2026-10-24:** players have **health**. [[Classes]] change max HP and regeneration, and the [[Hotel Shop]] sells healing.
 
 ## Basics (proposal)
-- **Base max HP: 100.** Classes change it (100 to 125).
-- **Regeneration**: after **8 seconds** without damage, regain **2 HP per second**. Class regen bonuses multiply this.
+- **Base max HP: 100.** The detailed 25 October [[Classes]] proposal uses 115 HP for Night Watchman and 100 for the other roles; the earlier 100-125 range is preserved in [[Classes - Earlier Stat Roster]].
+- **Regeneration**: after **8 seconds** without damage, regain **2 HP per second**. The current detailed class proposal uses normal regeneration for every role; older class regen multipliers are historical alternatives.
 - **UI**: a small heartbeat line instead of a big health bar, to keep the mood. The screen edges darken and the heartbeat sound gets louder at low HP.
 
 ## What hurts
@@ -27,7 +27,7 @@ Only things that fit a mystery hotel, not combat:
 - Natural regeneration (above).
 - **First Aid Kit** from the [[Hotel Shop]].
 - **Staff room**: the water cooler and first aid cabinet heal slowly.
-- **Night Manager** aura ([[Classes]]).
+- The earlier **Night Manager healing aura** is superseded in the current [[Classes - Security Records and Leadership|class proposal]] by active coordination abilities; do not add both versions.
 - Random reward: a found plaster or painkillers ([[Variable Rewards]]).
 
 ## At 0 HP: Knocked out (proposal)
