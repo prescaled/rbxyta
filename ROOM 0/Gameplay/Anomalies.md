@@ -22,7 +22,7 @@ Rule from [[Player Experience#Uncertainty]] still holds: not everything strange 
 | Camera-only figure | Someone standing still, only on CCTV | Report on CCTV |
 | Voice on the radio | A teammate's voice says something they never said | Ignore it, or report |
 | Extra corridor | A corridor that was not there last night | Report and avoid |
-| Wrong guest | A guest whose ID says 1998 | Do not give a key; report |
+| Wrong guest | A guest whose face, ID or booking doesn't match their file (for example, the ID says 1998) | Refuse at the check-in terminal ([[Task Interfaces#1. Check-in terminal (build first)]]); report |
 
 Unreported anomalies **escalate**: after a few minutes, some turn into a predator.
 

@@ -29,6 +29,9 @@ status: decided-core
 
 "NPC speed" from the brief is read as **player movement speed**. If it meant making NPC guests or staff faster or slower, add it as its own item.
 
+## Front desk upgrades (user, 2026-10-26)
+The reception desk starts with **one monitor**. Extra desk monitors are bought here as **permanent hotel upgrades** (an exception to the one-shift rule): a CCTV feed, an arrivals board and a room status board. See [[Task Interfaces#The desk]]. Prices are undecided.
+
 ## Design rules
 - Boosts are **small**. They help, but never replace playing well.
 - No boost should skip a story clue or unlock [[Room 0]].
