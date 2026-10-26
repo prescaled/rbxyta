@@ -30,8 +30,13 @@ The visual language follows the existing [[README|Ashbourne interface suite]] (R
 ## 1. Check-in terminal (build first)
 
 ### The desk
-- **One CRT monitor** on the curved desk at the start, with a keyboard, the guest register book, a bell, a stamp pad with APPROVED and REFUSED stamps, and the key wall behind.
-- **Upgrade slots** for monitors 2 to 4 are built into the desk but stay empty until bought. Proposed shop items, all permanent hotel upgrades rather than one-shift boosts (team-owned, saved):
+- **One big monitor** on the curved desk at the start, with a keyboard, the guest register book, a bell, a stamp pad with APPROVED and REFUSED stamps, and the key wall behind.
+- **The monitor (user, 2026-10-26, from a reference picture):** a modern **ultrawide flat panel**, not a CRT.
+  - **Shape:** the screen is about 2.3 : 1 and **3 studs across**. A thin slate-blue bevelled bezel with a black inner border, a short rectangular neck and a flat base, a small power LED, and a cable dropping through the work top.
+  - **Idle:** it shows the **Ashbourne desk screensaver**, with the monogram drifting slowly. It shows "a guest is waiting at the desk" when someone is at the counter, and the name of whoever is using it.
+  - **In use:** the camera move ends with the screen filling **about 90% of the view**, so the software reads as a big full screen with large text. The photo and the live guest view sit side by side at a generous size.
+  - **Wake:** a clean flat-screen wake animation, a light sweep and the logo, instead of the CRT scanline roll.
+- **Upgrade slots** for monitors 2 to 4 are built into the desk in the same ultrawide style, but stay empty until bought. Slot 2 sits left of the main monitor; slots 3 and 4 are on taller arms above 1 and 2, so the line of sight to the guest stays clear. Proposed shop items, all permanent hotel upgrades rather than one-shift boosts (team-owned, saved):
   - **Second monitor:** a live CCTV feed at the desk, so you can watch cameras while checking in.
   - **Third monitor:** the arrivals board, showing the queue and expected arrivals.
   - **Fourth monitor:** the room status board, showing ready, occupied and to clean.
@@ -39,7 +44,7 @@ The visual language follows the existing [[README|Ashbourne interface suite]] (R
 
 ### Flow
 1. A guest or party walks to the desk queue. The bell dings when they arrive at the counter.
-2. The player clicks the monitor. The camera eases into the CRT, the screen powers on (a brief scanline roll), and the **ASHBOURNE FRONT DESK** software opens.
+2. The player uses the monitor. The camera eases in until the screen fills the view, the flat panel wakes, and the **ASHBOURNE FRONT DESK** software opens.
 3. **Booking file** (left of the screen). Booking reference, lead guest and every party member by name, party size, nights, bed needs, arrival date, home town and a **photo on file for each person** (a ViewportFrame render of their approved look).
 4. **The guest at the desk** (right of the screen, or look up from the monitor). A live ViewportFrame or close camera of the person standing there, which the player can zoom. The guest also **slides an ID card** onto the desk. It can be picked up and turned over: photo, name, date of birth, issue date, signature.
 5. **Compare.** The player clicks a field on the file and the matching field on the ID or the person to **mark a discrepancy**. A red pencil circle draws on both, with a scratch sound. Correct marks are recorded; wrong marks cost a little time.
@@ -64,6 +69,35 @@ The visual language follows the existing [[README|Ashbourne interface suite]] (R
   - Refusing a real guest upsets them, costs the booking and lowers the inspection grade.
   - Correctly refusing an anomaly gives an inspection bonus and a Journal entry.
 - Exact tells per night, rates and rewards are **proposals**. Which anomaly arrivals tie to [[Room 0#The secret]] is still open.
+
+### Built (2026-10-26, P+C): step 1 ready for review
+Sources are in `rbxyta-assets/tools/studio_hotel/ui`, synced with `tools/studio_hotel/v2/sync.mjs push`:
+- **Kit:** `ReplicatedStorage.R0_UI.UIKit`, with the palette, fonts, buttons, pencil circles, stamps, typing, portraits and sounds.
+- **Terminal:** `ReplicatedStorage.R0_UI.CheckInTerminal`, the client.
+- **Server:** `ServerScriptService.R0_UI.CheckInServer`, which runs the idle screen, the prompt, the bell, the questions and the decisions.
+- **Opener:** `StarterPlayerScripts.R0_UI.CheckIn`.
+
+The desk is built by `v2/DressReception.lua`. `R0_HotelAPI.SetDeskMonitor(slot, enabled)` installs monitors 2 to 4. The 6-monitor CCTV bank now stands in the Security Room.
+
+What works, tested in Play on 2026-10-26:
+- **Normal check-in (Martin Pike).** The camera fills the screen, the panel wakes, the booking file shows photos on file and the desk camera. Then APPROVED stamp → floor plan with the reserved room → key off its hook → hand-over → Codex's booking is Settling. The terminal powers down.
+- **Anomaly refusal (test arrival "Peter Holloway").** Its tells:
+  - the booking shows as checked in on 14 MAR 1998;
+  - the ID was issued in 1998 and expired in 2008;
+  - its face and skin don't match the photo, and it casts no shadow;
+  - it repeats two of the questions back.
+  After 3 questions the limit holds. REFUSED stamp → the screen glitches → it flickers, walks away and vanishes. The refusal is written to Codex's shift Journal as `AnomalyRefused`.
+- **One test anomaly per night 1**, 50 s after clock-in (`CheckInServer` CONFIG). The name and ID details are test data, not canon. Ordinary guests' ID details (date of birth, card number, dates) are **proposed placeholders** generated from the name, and always match their file.
+
+### Needed from R+X
+The terminal works against Codex's live shift through a small adapter in `CheckInServer`. These are the parts Codex should own:
+1. **A check-in entry point.** Expose functions such as `CheckIn(player, bookingId, roomId)`, `HandOver(player, bookingId)` and `Refuse(player, bookingId, reason)`, so the adapter stops calling `Hotel:ConfirmRecord`, `TakeKey`, `HandKey`, `Props.Carry` and `ToRoom` directly.
+2. **Choosing another room.** The player can pick any other suitable room on the floor plan. Today the adapter moves the reservation itself, after Codex's `Hotel:Compatible` check.
+3. **Refusing an ordinary booking.** Today the adapter sets Happiness 0 and walks the party out with `Hotel:Depart`. Codex should decide the real consequence (booking lost, inspection grade).
+4. **Anomaly arrivals.** Which tells appear on which night, how many arrive, and what an admitted anomaly does later (key issued → incident, the Faceless Guest from night 4). The test anomaly is only a stand-in.
+5. **The generic "Use" prompt on the front desk monitor.** The client hides it so the desk has one way in. Codex can stop creating it for `R0_Reception` Computer.
+6. **Guest walking on stairs (bug).** `GuestActors.Walk` checks arrival with a 3D distance under 3 studs. On the grand stair the path waypoints sit below the guest's body, so guests stop at "Waiting for room access" after check-in. A horizontal distance check fixes it. The route itself paths fine.
+7. **Studio coin record.** With Studio API access off, `Profiles` never loads, so clock-in is refused. Testing used an in-memory record.
 
 ## 2. The other tasks, each with its own feel
 
