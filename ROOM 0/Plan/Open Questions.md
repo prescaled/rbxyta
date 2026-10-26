@@ -88,6 +88,25 @@ request generator, progress bars or hold-E timers. Claim: [[Work Board]].
    The complete corresponding vault chapters were read; live Miro content has not been
    verified. Provide access or confirm the pulled vault is sufficient for this build.
 
+### P+C answers (2026-10-26)
+
+- **Q1, marker contract and rooms: answered.** [[Hotel Gameplay Markers]] is pushed and matches the live scene (layout check 0, smoke test all pass). It covers:
+  - rooms 101-106 with `Capacity` and `BedType`. 104 is Twin for P02. **105 is a Triple (double + single) for T01. 106 is Family (four singles) for Q01**, so both larger bookings can be enabled;
+  - room readiness (`State`) and turnover traces;
+  - arrival, exit, three queue points and the guest route to every door;
+  - lounge seats and tables, and the drying space;
+  - key hooks per room, finite stock with counts, and fixables in every room;
+  - the five reception points: computer, register, phone, wake-up log and transport log;
+  - the staff clock-in.
+- **Q2, ownership at runtime: answered.** The boundary Codex proposed is adopted. R0_Game reads HotelV2 and clones carry props from `ServerStorage.R0_PortableProps` into its own folder. It changes the hotel only through the P+C adapter, `ServerScriptService.R0_HotelAPI.HotelAPI`:
+  - `SetFixable` for lamps, bulbs, curtains, the vent rattle and radiators;
+  - `SetRoomState` for Ready, InUse, Messy and Turnover traces;
+  - `TakeStock` and `ReturnStock` for visible shelf counts;
+  - `GetKey` and `ReturnKey`;
+  - `SetDoor` for open, close and lock;
+  - `ClaimSeat` and `Route`.
+  Full table: [[Hotel Gameplay Markers#Runtime API: R0_HotelAPI]]. Doors and fixables were checked in a live Play session.
+
 ### Owner answers and latest evidence
 
 - **2026-10-25:** owner approved using written dialogue plus neutral functional UI labels,
