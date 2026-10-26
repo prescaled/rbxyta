@@ -1,7 +1,7 @@
 ---
 tags: [room0, gameplay, guests, hub]
 status: detailed-proposal
-updated: 2026-10-24
+updated: 2026-10-26
 ---
 
 # Ordinary Guests - Index
@@ -19,6 +19,8 @@ The 1–4 group framework and ordinary-guest focus are established direction. Na
 - [[Ordinary Guests - Pair Bookings]]: [Miro chapter](https://miro.com/app/board/uXjVEVisZSo=/?moveToWidget=3458764688321718054)
 - [[Ordinary Guests - Group Bookings]]: [Miro chapter](https://miro.com/app/board/uXjVEVisZSo=/?moveToWidget=3458764688321718060)
 - [[Ordinary Guests - Activities and Encounters]]: [Miro chapter](https://miro.com/app/board/uXjVEVisZSo=/?moveToWidget=3458764688321718059)
+- [[Ordinary Guests - Family Bookings]]: three bookings with children and the rules that keep them safe (2026-10-26)
+- [[Ordinary Guests - Character Looks]]: how each first-build and family guest looks, for building the characters (2026-10-26)
 - [[Ordinary Guests - Scheduling and Production]]: [Miro chapter](https://miro.com/app/board/uXjVEVisZSo=/?moveToWidget=3458764688321718055)
 
 [Miro navigation panel](https://miro.com/app/board/uXjVEVisZSo=/?moveToWidget=3458764688321718044)
@@ -47,6 +49,9 @@ The 1–4 group framework and ordinary-guest focus are established direction. Na
 | Q02 | Mina Clarke, Jo Bennett, Tess Morgan and Ben Okoro | 4 | Friends' annual weekend | Shared game and quiet breaks | Expansion |
 | Q03 | Farah Ahmed, Michael Webb, Tessa King and Len Frost | 4 | Conference volunteers | Preparation, receipts and debrief | Expansion |
 | Q04 | Alice, Sofia, Marcus and Neil Marsh | 4 | Adult family stopover | Independent activities and bag count | Expansion |
+| F01 | Grace, Samuel, Zara (9) and Kofi (6) Okafor | 4 | Long drive to grandparents | Tired children, early night, lost toy | Families (proposal 2026-10-26) |
+| F02 | Lucy Brennan and Alfie Brennan (7) | 2 | Junior football tournament | Muddy returns, drying space | Families (proposal 2026-10-26) |
+| F03 | George Whitlock and Poppy Whitlock (11) | 2 | Railway museum trip | Patient pace, lounge cards | Families (proposal 2026-10-26) |
 
 ## Recommended starting set
 
