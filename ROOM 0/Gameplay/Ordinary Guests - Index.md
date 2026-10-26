@@ -25,6 +25,8 @@ The 1–4 group framework and ordinary-guest focus are established direction. Na
 
 [Miro navigation panel](https://miro.com/app/board/uXjVEVisZSo=/?moveToWidget=3458764688321718044)
 
+- [[Ordinary Guests - Character Sheets]]: build specs for each guest's look, plus proposed families with children (F01 to F04, 2026-10-26)
+
 ## Booking catalogue
 
 | ID | Named occupants | People | Reason to stay | Main behaviour | Priority |
