@@ -1,7 +1,7 @@
 ---
 tags: [room0, production, gameplay, status]
 status: building
-updated: 2026-10-25
+updated: 2026-10-26
 ---
 # First Shift Implementation
 
@@ -42,6 +42,33 @@ Owner also asked for these notes to be updated. Unresolved questions remain in [
 Refer to [[Ordinary Guests - Scheduling and Production]] for the full acceptance list.
 
 ## Integration evidence / outstanding
+
+### Latest checkpoint — 2026-10-26
+
+- Owner approved stopping Play and installing R0_Game. Fourteen script sources are
+  now installed under the allowed script folders; all pass Studio syntax validation.
+- P+C's new markers and HotelAPI are verified in the live Hotel. Startup reports zero
+  missing dependencies. Studio API access is enabled and the coin profile loads as Saved.
+- Client GUI receives server state. A client-remote clock-in (test player positioned
+  at the clock) started Night 1; Martin spawned and moved toward reception.
+- Subsequent Play restarts/stops interrupted testing. No full shift, two-player run,
+  two-night acceptance run or requested screenshot set has passed.
+- Pure Luau domain tests pass: continuity, no-request checkout, capacity/twin checks,
+  group stock, exclusive loans, disconnect recovery and idempotent coin receipts.
+- Game code now calls P+C's API for stock/refunds, keys, doors and room states, uses
+  shared portable props and follows authored guest routes with blocked-area costs.
+  Inspect/fit/test repair actions are implemented for a genuinely broken fixture.
+- Remaining implementation: full check-in selections, lounge activities and authored
+  guest appearance, loan retrieval/return, physical turnover steps, camera reporting,
+  contextual requests, complete inspection inputs and visual/audio polish. API integration
+  does not mean these tasks are finished. See the source folder's README for the backlog.
+- Room 105 is now triple capacity (double + single); Room 106 has four singles. The
+  draft T01 separate-bed requirement needs reconciliation before Stage 3 is enabled.
+- Existing unrelated Wall Jump Kit errors remain in Output. No P+C scripts were edited.
+- Keep Work Board **building**, not review. Owner should use **File > Save to Roblox**
+  to preserve the installed scripts.
+
+### Earlier evidence (superseded where the checkpoint above says otherwise)
 
 - Read all requested vault chapters, Roadmap Phase 2, CCTV, incidents and Night 1 rules.
 - Miro is private and requires sign-in; live board content has not been verified.
