@@ -24,3 +24,11 @@ status: decided-core
 
 ## Models
 Monitor bank, cameras and others: see [[Blender Model List#Security cameras]].
+
+## Detailed expansion (27 October 2026)
+
+See [[Cinematics and CCTV - Index]], [[CCTV - Encounter Catalogue]] and [[CCTV - Operation and Evidence]] for 12 encounter proposals and the observation/reporting specification.
+
+Refinements to the earlier broad proposal: actionable anomalies can be cleared and rewarded; fleeting sightings may be archived without a missed-event penalty; story discrepancies remain evidence rather than being erased by a correct report. Only specifically designed incidents escalate, with fair warning and counterplay. Saved observations must preserve the captured state. Replay is an optional, technically unverified extension. Start with two useful feeds and grow towards the earlier 8-12 coverage target.
+
+The separate security-station concept does not override the approved modern ultrawide reception monitor in [[Task Interfaces]]. An extra reception CCTV screen is an upgrade; baseline access remains at the security desk for all classes. These refinements are design proposals, not a claim that the systems are built.

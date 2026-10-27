@@ -34,3 +34,9 @@ status: decided-core
 
 ## Models
 Shuttle interior, gate, time clock and others: see [[Blender Model List#Cutscenes]].
+
+## Detailed expansion (27 October 2026)
+
+See [[Cinematics and CCTV - Index]], [[Cinematics - Direction and Pacing]] and [[Cinematics - Scene Catalogue]] for the requested range of sightings and cinematic scenes. The 12 concepts are proposals, not implemented content or settled missing-case explanations.
+
+The newer design distinguishes short world sightings (normal control/HUD), interactive discoveries (voluntary entry/exit), and longer chapter cinematics. Letterboxing, hidden ordinary HUD and 10-40 second lengths apply to chapter presentation, not every apparition. Accessibility captions and essential exit controls remain available. Per-player scenes do not cut every teammate away from their work. The current Art Bible is detailed stylised Roblox; the older realistic-mood wording describes tone, not photorealistic art.

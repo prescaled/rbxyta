@@ -36,3 +36,7 @@ status: decided-core
 ## Rules
 - Every story event must point at the same truth ([[Room 0#The secret]]).
 - Each event should reuse models from the [[Blender Model List]], so new events stay cheap to add.
+
+## Detailed staging library (27 October 2026)
+
+[[Cinematics - Scene Catalogue]] and [[CCTV - Encounter Catalogue]] develop sightings, near presences, ordinary explanations and camera contradictions. Use the pacing and story gates in [[Cinematics - Direction and Pacing]]; the library is not a requirement to spawn every event. Missing-guest likenesses do not establish death, survival, hostility or the secret of Room 0.
