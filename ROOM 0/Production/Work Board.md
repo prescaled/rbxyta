@@ -41,10 +41,11 @@ Status: `todo` · `claimed` · `building` · `review` · `done`
 | R0_Spawn_ShuttleVan | P+C | review (Blender done, 1,688 tris; Roblox import + Package pending) | Spawn, arrival cutscene |
 | R0_Char_Uniforms (7 classes) | P+C | todo | Spawn locker hall, hotel |
 | R0_Char_Inspector | R+X | todo | Hotel, dawn cutscene |
-| R0_Char_Guests (13 starting guests) | R+X | building (2026-10-26: owner requested every character have a unique look; Character Sheets, R15, lineup and matching file portraits; families remain unapproved) | Hotel, spawn background |
+| R0_Char_Guests (13 starting guests) | R+X | building (2026-10-27: all 13 textured visual rigs imported into ServerStorage/R0_Guests; gameplay and animation integration pending; see [[Guest Model Import]]; families remain unapproved) | Hotel, spawn background |
 | R0_Prop_Flashlight | R+X | todo | Classes, hotel |
 | R0_Prop_Toolbox | R+X | todo | Classes, maintenance |
 | R0_Prop_LuggageTrolley | R+X | building | Classes, deliveries |
 | R0_Prop_HousekeepingCart | R+X | todo | Classes, cleaning |
 
 Add rows as you claim things. One owner per row.
+
