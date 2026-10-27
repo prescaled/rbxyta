@@ -20,3 +20,6 @@ Players take the role of **newly hired night-shift employees** at the [[Ashbourn
 ## Open
 - Roles inside a team (front desk, security, maintenance) or everyone does everything?
 - Can a player be "lost" like a guest? Is there failure? See [[Open Questions]].
+## Regular colleagues (27 October 2026)
+
+The players are new hires working alongside existing NPC employees. See [[Resident Staff]] for the proposed regular cast and [[Resident Staff - Interactions and Routines]] for shared duties, greetings and non-speaking interactions. The staff cast is separate from player [[Classes]]. Full cast navigation: [[NPC Character Notes]].

@@ -69,3 +69,6 @@ Martin; Leena; Gwen and Arthur; Aisha and Tom; Nia, Beth and Callum; Dawn, Pete,
 ## Related notes
 
 [[Guests]] · [[Shift Tasks]] · [[Ashbourne Hotel]] · [[Missing Guests]] · [[Open Questions]]
+## NPC staff alongside the guests
+
+The hotel also has regular employees working alongside the player new hires: [[Resident Staff]]. Their detailed profiles are in [[Resident Staff - Character Profiles]], with routines and interaction rules in [[Resident Staff - Interactions and Routines]]. They are not guest bookings and do not change this catalogue's guest counts. [[NPC Character Notes]] links the staff, ordinary guests and established story characters.

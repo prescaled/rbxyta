@@ -197,3 +197,6 @@ The other 33 named guests keep the looks written in their booking notes. Turn th
 
 ## Related
 [[Guests]] · [[Ordinary Guests - Index]] · [[Task Interfaces]] · [[Anomalies]] · [[Art Bible]] · [[Work Board]]
+## Separate staff character reference
+
+For the regular employees working alongside the players, see [[Resident Staff - Character Profiles]] and [[NPC Character Notes]]. Staff appearances are new character proposals; their inclusion does not overwrite the guest or family designs above. NPC employees are separate from selectable player [[Classes]].
